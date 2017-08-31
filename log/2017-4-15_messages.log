@@ -1,0 +1,949 @@
+[10:31:59] - [LOG_DEBUG]: [ParserTreeReader::skipAHeader]: *x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*
+
+[10:31:59] - [LOG_DEBUG]: [ParserTreeReader::skipAHeader]: *x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*
+
+[10:31:59] - [LOG_DEBUG]: [ParserTreeReader::skipAHeader]: *x*                                                                     *x*
+
+[10:31:59] - [LOG_DEBUG]: [ParserTreeReader::skipAHeader]: *x*            Copyright (C) 1991 University of Pennsylvania            *x*
+
+[10:31:59] - [LOG_DEBUG]: [ParserTreeReader::skipAHeader]: *x*                                                                     *x*
+
+[10:31:59] - [LOG_DEBUG]: [ParserTreeReader::skipAHeader]: *x*    The data in this file are part of a preliminary version of the   *x*
+
+[10:31:59] - [LOG_DEBUG]: [ParserTreeReader::skipAHeader]: *x*    Penn Treebank Corpus and should not be redistributed.  Any       *x*
+
+[10:31:59] - [LOG_DEBUG]: [ParserTreeReader::skipAHeader]: *x*    research using this corpus or based on it should acknowledge     *x*
+
+[10:31:59] - [LOG_DEBUG]: [ParserTreeReader::skipAHeader]: *x*    that fact, as well as the preliminary nature of the corpus.      *x*
+
+[10:31:59] - [LOG_DEBUG]: [ParserTreeReader::skipAHeader]: *x*                             (9/9/1991)                             *x*
+
+[10:31:59] - [LOG_DEBUG]: [ParserTreeReader::skipAHeader]: *x*                                                                     *x*
+
+[10:31:59] - [LOG_DEBUG]: [ParserTreeReader::skipAHeader]: *x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*
+
+[10:31:59] - [LOG_DEBUG]: [ParserTreeReader::skipAHeader]: *x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*
+
+[10:31:59] - [LOG_DEBUG]: [ParserTreeReader::skipAHeader]: 
+
+[10:31:59] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]: ( END_OF_TEXT_UNIT )
+
+[10:31:59] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]: ( (S 
+
+[10:31:59] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:     (S 
+
+[10:31:59] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:       (NP (NNS Lines) 
+
+[10:31:59] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:         (PP (IN of) 
+
+[10:31:59] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:           (NP (NNS communications) )))
+
+[10:31:59] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:       (AUX (VBD were) )
+
+[10:31:59] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:       (VP (VBN established) 
+
+[10:31:59] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:         (PP (IN between) 
+
+[10:31:59] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:           (NP (DT the) (CD two) (NNS companies) ))))
+
+[10:31:59] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:     (CC and) 
+
+[10:31:59] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:     (S 
+
+[10:31:59] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:       (NP (JJ several) (NNP Du) (NNP Pont) (NNS products) )
+
+[10:31:59] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:       (AUX (VBD were) )
+
+[10:31:59] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:       (ADVP (RB actively) )
+
+[10:31:59] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:       (VP (VBN promoted) )))
+
+[10:31:59] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:   (. .) )
+
+[10:31:59] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]: ( END_OF_TEXT_UNIT )
+
+[10:31:59] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]: ( END_OF_TEXT_UNIT )
+
+[10:31:59] - [LOG_FATAL]: [testParserFileReader1]: the parserTree: ( (S(S(NP (NNS Lines)(PP (IN of)(NP (NNS communications) )))(AUX (VBD were) )(VP (VBN established)(PP (IN between)(NP (DT the) (CD two) (NNS companies) ))))(CC and)(S(NP (JJ several) (NNP Du) (NNP Pont) (NNS products) )(AUX (VBD were) )(ADVP (RB actively) )(VP (VBN promoted) )))(. .) )
+[10:31:59] - [LOG_FATAL]: [ParserTree::Constructor]: building the tree with compress text: (S(S(NP (NNS Lines)(PP (IN of)(NP (NNS communications) )))(AUX (VBD were) )(VP (VBN established)(PP (IN between)(NP (DT the) (CD two) (NNS companies) ))))(CC and)(S(NP (JJ several) (NNP Du) (NNP Pont) (NNS products) )(AUX (VBD were) )(ADVP (RB actively) )(VP (VBN promoted) )))
+[10:31:59] - [LOG_DEBUG]: [ParserTree::buildTree]: compressText: (S(S(NP (NNS Lines)(PP (IN of)(NP (NNS communications) )))(AUX (VBD were) )(VP (VBN established)(PP (IN between)(NP (DT the) (CD two) (NNS companies) ))))(CC and)(S(NP (JJ several) (NNP Du) (NNP Pont) (NNS products) )(AUX (VBD were) )(ADVP (RB actively) )(VP (VBN promoted) )))
+[10:31:59] - [LOG_DEBUG]: [ParserTree::buildTree]: set content for curNode: S
+[10:31:59] - [LOG_DEBUG]: [ParserTree::buildTree]: compressText: (S(NP (NNS Lines)(PP (IN of)(NP (NNS communications) )))(AUX (VBD were) )(VP (VBN established)(PP (IN between)(NP (DT the) (CD two) (NNS companies) ))))
+[10:31:59] - [LOG_DEBUG]: [ParserTree::buildTree]: set content for curNode: S
+[10:31:59] - [LOG_DEBUG]: [ParserTree::buildTree]: compressText: (NP (NNS Lines)(PP (IN of)(NP (NNS communications) )))
+[10:31:59] - [LOG_DEBUG]: [ParserTree::buildTree]: set content for curNode: NP
+[10:31:59] - [LOG_DEBUG]: [ParserTree::buildTree]: compressText: (NNS Lines)
+[10:31:59] - [LOG_DEBUG]: [ParserTree::buildTree]: set content for curNode: NNS Lines
+[10:31:59] - [LOG_DEBUG]: [ParserTree::buildTree]: compressText: (PP (IN of)(NP (NNS communications) ))
+[10:31:59] - [LOG_DEBUG]: [ParserTree::buildTree]: set content for curNode: PP
+[10:31:59] - [LOG_DEBUG]: [ParserTree::buildTree]: compressText: (IN of)
+[10:31:59] - [LOG_DEBUG]: [ParserTree::buildTree]: set content for curNode: IN of
+[10:31:59] - [LOG_DEBUG]: [ParserTree::buildTree]: compressText: (NP (NNS communications) )
+[10:31:59] - [LOG_DEBUG]: [ParserTree::buildTree]: set content for curNode: NP
+[10:31:59] - [LOG_DEBUG]: [ParserTree::buildTree]: compressText: (NNS communications)
+[10:31:59] - [LOG_DEBUG]: [ParserTree::buildTree]: set content for curNode: NNS communications
+[10:31:59] - [LOG_DEBUG]: [ParserTree::buildTree]: compressText: (AUX (VBD were) )
+[10:31:59] - [LOG_DEBUG]: [ParserTree::buildTree]: set content for curNode: AUX
+[10:31:59] - [LOG_DEBUG]: [ParserTree::buildTree]: compressText: (VBD were)
+[10:31:59] - [LOG_DEBUG]: [ParserTree::buildTree]: set content for curNode: VBD were
+[10:31:59] - [LOG_DEBUG]: [ParserTree::buildTree]: compressText: (VP (VBN established)(PP (IN between)(NP (DT the) (CD two) (NNS companies) )))
+[10:31:59] - [LOG_DEBUG]: [ParserTree::buildTree]: set content for curNode: VP
+[10:31:59] - [LOG_DEBUG]: [ParserTree::buildTree]: compressText: (VBN established)
+[10:31:59] - [LOG_DEBUG]: [ParserTree::buildTree]: set content for curNode: VBN established
+[10:31:59] - [LOG_DEBUG]: [ParserTree::buildTree]: compressText: (PP (IN between)(NP (DT the) (CD two) (NNS companies) ))
+[10:31:59] - [LOG_DEBUG]: [ParserTree::buildTree]: set content for curNode: PP
+[10:31:59] - [LOG_DEBUG]: [ParserTree::buildTree]: compressText: (IN between)
+[10:31:59] - [LOG_DEBUG]: [ParserTree::buildTree]: set content for curNode: IN between
+[10:31:59] - [LOG_DEBUG]: [ParserTree::buildTree]: compressText: (NP (DT the) (CD two) (NNS companies) )
+[10:31:59] - [LOG_DEBUG]: [ParserTree::buildTree]: set content for curNode: NP
+[10:31:59] - [LOG_DEBUG]: [ParserTree::buildTree]: compressText: (DT the)
+[10:31:59] - [LOG_DEBUG]: [ParserTree::buildTree]: set content for curNode: DT the
+[10:31:59] - [LOG_DEBUG]: [ParserTree::buildTree]: compressText: (CD two)
+[10:31:59] - [LOG_DEBUG]: [ParserTree::buildTree]: set content for curNode: CD two
+[10:31:59] - [LOG_DEBUG]: [ParserTree::buildTree]: compressText: (NNS companies)
+[10:31:59] - [LOG_DEBUG]: [ParserTree::buildTree]: set content for curNode: NNS companies
+[10:31:59] - [LOG_DEBUG]: [ParserTree::buildTree]: compressText: (CC and)
+[10:31:59] - [LOG_DEBUG]: [ParserTree::buildTree]: set content for curNode: CC and
+[10:31:59] - [LOG_DEBUG]: [ParserTree::buildTree]: compressText: (S(NP (JJ several) (NNP Du) (NNP Pont) (NNS products) )(AUX (VBD were) )(ADVP (RB actively) )(VP (VBN promoted) ))
+[10:31:59] - [LOG_DEBUG]: [ParserTree::buildTree]: set content for curNode: S
+[10:31:59] - [LOG_DEBUG]: [ParserTree::buildTree]: compressText: (NP (JJ several) (NNP Du) (NNP Pont) (NNS products) )
+[10:31:59] - [LOG_DEBUG]: [ParserTree::buildTree]: set content for curNode: NP
+[10:31:59] - [LOG_DEBUG]: [ParserTree::buildTree]: compressText: (JJ several)
+[10:31:59] - [LOG_DEBUG]: [ParserTree::buildTree]: set content for curNode: JJ several
+[10:31:59] - [LOG_DEBUG]: [ParserTree::buildTree]: compressText: (NNP Du)
+[10:31:59] - [LOG_DEBUG]: [ParserTree::buildTree]: set content for curNode: NNP Du
+[10:31:59] - [LOG_DEBUG]: [ParserTree::buildTree]: compressText: (NNP Pont)
+[10:31:59] - [LOG_DEBUG]: [ParserTree::buildTree]: set content for curNode: NNP Pont
+[10:31:59] - [LOG_DEBUG]: [ParserTree::buildTree]: compressText: (NNS products)
+[10:31:59] - [LOG_DEBUG]: [ParserTree::buildTree]: set content for curNode: NNS products
+[10:31:59] - [LOG_DEBUG]: [ParserTree::buildTree]: compressText: (AUX (VBD were) )
+[10:31:59] - [LOG_DEBUG]: [ParserTree::buildTree]: set content for curNode: AUX
+[10:31:59] - [LOG_DEBUG]: [ParserTree::buildTree]: compressText: (VBD were)
+[10:31:59] - [LOG_DEBUG]: [ParserTree::buildTree]: set content for curNode: VBD were
+[10:31:59] - [LOG_DEBUG]: [ParserTree::buildTree]: compressText: (ADVP (RB actively) )
+[10:31:59] - [LOG_DEBUG]: [ParserTree::buildTree]: set content for curNode: ADVP
+[10:31:59] - [LOG_DEBUG]: [ParserTree::buildTree]: compressText: (RB actively)
+[10:31:59] - [LOG_DEBUG]: [ParserTree::buildTree]: set content for curNode: RB actively
+[10:31:59] - [LOG_DEBUG]: [ParserTree::buildTree]: compressText: (VP (VBN promoted) )
+[10:31:59] - [LOG_DEBUG]: [ParserTree::buildTree]: set content for curNode: VP
+[10:31:59] - [LOG_DEBUG]: [ParserTree::buildTree]: compressText: (VBN promoted)
+[10:31:59] - [LOG_DEBUG]: [ParserTree::buildTree]: set content for curNode: VBN promoted
+[10:33:5] - [LOG_DEBUG]: [ParserTreeReader::skipAHeader]: *x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*
+
+[10:33:5] - [LOG_DEBUG]: [ParserTreeReader::skipAHeader]: *x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*
+
+[10:33:5] - [LOG_DEBUG]: [ParserTreeReader::skipAHeader]: *x*                                                                     *x*
+
+[10:33:5] - [LOG_DEBUG]: [ParserTreeReader::skipAHeader]: *x*            Copyright (C) 1991 University of Pennsylvania            *x*
+
+[10:33:5] - [LOG_DEBUG]: [ParserTreeReader::skipAHeader]: *x*                                                                     *x*
+
+[10:33:5] - [LOG_DEBUG]: [ParserTreeReader::skipAHeader]: *x*    The data in this file are part of a preliminary version of the   *x*
+
+[10:33:5] - [LOG_DEBUG]: [ParserTreeReader::skipAHeader]: *x*    Penn Treebank Corpus and should not be redistributed.  Any       *x*
+
+[10:33:5] - [LOG_DEBUG]: [ParserTreeReader::skipAHeader]: *x*    research using this corpus or based on it should acknowledge     *x*
+
+[10:33:5] - [LOG_DEBUG]: [ParserTreeReader::skipAHeader]: *x*    that fact, as well as the preliminary nature of the corpus.      *x*
+
+[10:33:5] - [LOG_DEBUG]: [ParserTreeReader::skipAHeader]: *x*                             (9/9/1991)                             *x*
+
+[10:33:5] - [LOG_DEBUG]: [ParserTreeReader::skipAHeader]: *x*                                                                     *x*
+
+[10:33:5] - [LOG_DEBUG]: [ParserTreeReader::skipAHeader]: *x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*
+
+[10:33:5] - [LOG_DEBUG]: [ParserTreeReader::skipAHeader]: *x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*
+
+[10:33:5] - [LOG_DEBUG]: [ParserTreeReader::skipAHeader]: 
+
+[10:33:5] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]: ( END_OF_TEXT_UNIT )
+
+[10:33:5] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]: ( (S 
+
+[10:33:5] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:     (S 
+
+[10:33:5] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:       (NP (NNS Lines) 
+
+[10:33:5] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:         (PP (IN of) 
+
+[10:33:5] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:           (NP (NNS communications) )))
+
+[10:33:5] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:       (AUX (VBD were) )
+
+[10:33:5] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:       (VP (VBN established) 
+
+[10:33:5] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:         (PP (IN between) 
+
+[10:33:5] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:           (NP (DT the) (CD two) (NNS companies) ))))
+
+[10:33:5] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:     (CC and) 
+
+[10:33:5] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:     (S 
+
+[10:33:5] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:       (NP (JJ several) (NNP Du) (NNP Pont) (NNS products) )
+
+[10:33:5] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:       (AUX (VBD were) )
+
+[10:33:5] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:       (ADVP (RB actively) )
+
+[10:33:5] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:       (VP (VBN promoted) )))
+
+[10:33:5] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:   (. .) )
+
+[10:33:5] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]: ( END_OF_TEXT_UNIT )
+
+[10:33:5] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]: ( END_OF_TEXT_UNIT )
+
+[10:33:5] - [LOG_FATAL]: [testParserFileReader1]: the parserTree: ( (S(S(NP (NNS Lines)(PP (IN of)(NP (NNS communications) )))(AUX (VBD were) )(VP (VBN established)(PP (IN between)(NP (DT the) (CD two) (NNS companies) ))))(CC and)(S(NP (JJ several) (NNP Du) (NNP Pont) (NNS products) )(AUX (VBD were) )(ADVP (RB actively) )(VP (VBN promoted) )))(. .) )
+[10:33:5] - [LOG_FATAL]: [ParserTree::Constructor]: building the tree with compress text: (S(S(NP (NNS Lines)(PP (IN of)(NP (NNS communications) )))(AUX (VBD were) )(VP (VBN established)(PP (IN between)(NP (DT the) (CD two) (NNS companies) ))))(CC and)(S(NP (JJ several) (NNP Du) (NNP Pont) (NNS products) )(AUX (VBD were) )(ADVP (RB actively) )(VP (VBN promoted) )))
+[10:33:5] - [LOG_DEBUG]: [ParserTree::buildTree]: compressText: (S(S(NP (NNS Lines)(PP (IN of)(NP (NNS communications) )))(AUX (VBD were) )(VP (VBN established)(PP (IN between)(NP (DT the) (CD two) (NNS companies) ))))(CC and)(S(NP (JJ several) (NNP Du) (NNP Pont) (NNS products) )(AUX (VBD were) )(ADVP (RB actively) )(VP (VBN promoted) )))
+[10:33:5] - [LOG_DEBUG]: [ParserTree::buildTree]: set content for curNode: S
+[10:33:5] - [LOG_DEBUG]: [ParserTree::buildTree]: compressText: (S(NP (NNS Lines)(PP (IN of)(NP (NNS communications) )))(AUX (VBD were) )(VP (VBN established)(PP (IN between)(NP (DT the) (CD two) (NNS companies) ))))
+[10:33:5] - [LOG_DEBUG]: [ParserTree::buildTree]: set content for curNode: S
+[10:33:5] - [LOG_DEBUG]: [ParserTree::buildTree]: compressText: (NP (NNS Lines)(PP (IN of)(NP (NNS communications) )))
+[10:33:5] - [LOG_DEBUG]: [ParserTree::buildTree]: set content for curNode: NP
+[10:33:5] - [LOG_DEBUG]: [ParserTree::buildTree]: compressText: (NNS Lines)
+[10:33:5] - [LOG_DEBUG]: [ParserTree::buildTree]: set content for curNode: NNS Lines
+[10:33:5] - [LOG_DEBUG]: [ParserTree::buildTree]: compressText: (PP (IN of)(NP (NNS communications) ))
+[10:33:5] - [LOG_DEBUG]: [ParserTree::buildTree]: set content for curNode: PP
+[10:33:5] - [LOG_DEBUG]: [ParserTree::buildTree]: compressText: (IN of)
+[10:33:5] - [LOG_DEBUG]: [ParserTree::buildTree]: set content for curNode: IN of
+[10:33:5] - [LOG_DEBUG]: [ParserTree::buildTree]: compressText: (NP (NNS communications) )
+[10:33:5] - [LOG_DEBUG]: [ParserTree::buildTree]: set content for curNode: NP
+[10:33:5] - [LOG_DEBUG]: [ParserTree::buildTree]: compressText: (NNS communications)
+[10:33:5] - [LOG_DEBUG]: [ParserTree::buildTree]: set content for curNode: NNS communications
+[10:33:5] - [LOG_DEBUG]: [ParserTree::buildTree]: compressText: (AUX (VBD were) )
+[10:33:5] - [LOG_DEBUG]: [ParserTree::buildTree]: set content for curNode: AUX
+[10:33:5] - [LOG_DEBUG]: [ParserTree::buildTree]: compressText: (VBD were)
+[10:33:5] - [LOG_DEBUG]: [ParserTree::buildTree]: set content for curNode: VBD were
+[10:33:5] - [LOG_DEBUG]: [ParserTree::buildTree]: compressText: (VP (VBN established)(PP (IN between)(NP (DT the) (CD two) (NNS companies) )))
+[10:33:5] - [LOG_DEBUG]: [ParserTree::buildTree]: set content for curNode: VP
+[10:33:5] - [LOG_DEBUG]: [ParserTree::buildTree]: compressText: (VBN established)
+[10:33:5] - [LOG_DEBUG]: [ParserTree::buildTree]: set content for curNode: VBN established
+[10:33:5] - [LOG_DEBUG]: [ParserTree::buildTree]: compressText: (PP (IN between)(NP (DT the) (CD two) (NNS companies) ))
+[10:33:5] - [LOG_DEBUG]: [ParserTree::buildTree]: set content for curNode: PP
+[10:33:5] - [LOG_DEBUG]: [ParserTree::buildTree]: compressText: (IN between)
+[10:33:5] - [LOG_DEBUG]: [ParserTree::buildTree]: set content for curNode: IN between
+[10:33:5] - [LOG_DEBUG]: [ParserTree::buildTree]: compressText: (NP (DT the) (CD two) (NNS companies) )
+[10:33:5] - [LOG_DEBUG]: [ParserTree::buildTree]: set content for curNode: NP
+[10:33:5] - [LOG_DEBUG]: [ParserTree::buildTree]: compressText: (DT the)
+[10:33:5] - [LOG_DEBUG]: [ParserTree::buildTree]: set content for curNode: DT the
+[10:33:5] - [LOG_DEBUG]: [ParserTree::buildTree]: compressText: (CD two)
+[10:33:5] - [LOG_DEBUG]: [ParserTree::buildTree]: set content for curNode: CD two
+[10:33:5] - [LOG_DEBUG]: [ParserTree::buildTree]: compressText: (NNS companies)
+[10:33:5] - [LOG_DEBUG]: [ParserTree::buildTree]: set content for curNode: NNS companies
+[10:33:5] - [LOG_DEBUG]: [ParserTree::buildTree]: compressText: (CC and)
+[10:33:5] - [LOG_DEBUG]: [ParserTree::buildTree]: set content for curNode: CC and
+[10:33:5] - [LOG_DEBUG]: [ParserTree::buildTree]: compressText: (S(NP (JJ several) (NNP Du) (NNP Pont) (NNS products) )(AUX (VBD were) )(ADVP (RB actively) )(VP (VBN promoted) ))
+[10:33:5] - [LOG_DEBUG]: [ParserTree::buildTree]: set content for curNode: S
+[10:33:5] - [LOG_DEBUG]: [ParserTree::buildTree]: compressText: (NP (JJ several) (NNP Du) (NNP Pont) (NNS products) )
+[10:33:5] - [LOG_DEBUG]: [ParserTree::buildTree]: set content for curNode: NP
+[10:33:5] - [LOG_DEBUG]: [ParserTree::buildTree]: compressText: (JJ several)
+[10:33:5] - [LOG_DEBUG]: [ParserTree::buildTree]: set content for curNode: JJ several
+[10:33:5] - [LOG_DEBUG]: [ParserTree::buildTree]: compressText: (NNP Du)
+[10:33:5] - [LOG_DEBUG]: [ParserTree::buildTree]: set content for curNode: NNP Du
+[10:33:5] - [LOG_DEBUG]: [ParserTree::buildTree]: compressText: (NNP Pont)
+[10:33:5] - [LOG_DEBUG]: [ParserTree::buildTree]: set content for curNode: NNP Pont
+[10:33:5] - [LOG_DEBUG]: [ParserTree::buildTree]: compressText: (NNS products)
+[10:33:5] - [LOG_DEBUG]: [ParserTree::buildTree]: set content for curNode: NNS products
+[10:33:5] - [LOG_DEBUG]: [ParserTree::buildTree]: compressText: (AUX (VBD were) )
+[10:33:5] - [LOG_DEBUG]: [ParserTree::buildTree]: set content for curNode: AUX
+[10:33:5] - [LOG_DEBUG]: [ParserTree::buildTree]: compressText: (VBD were)
+[10:33:5] - [LOG_DEBUG]: [ParserTree::buildTree]: set content for curNode: VBD were
+[10:33:5] - [LOG_DEBUG]: [ParserTree::buildTree]: compressText: (ADVP (RB actively) )
+[10:33:5] - [LOG_DEBUG]: [ParserTree::buildTree]: set content for curNode: ADVP
+[10:33:5] - [LOG_DEBUG]: [ParserTree::buildTree]: compressText: (RB actively)
+[10:33:5] - [LOG_DEBUG]: [ParserTree::buildTree]: set content for curNode: RB actively
+[10:33:5] - [LOG_DEBUG]: [ParserTree::buildTree]: compressText: (VP (VBN promoted) )
+[10:33:5] - [LOG_DEBUG]: [ParserTree::buildTree]: set content for curNode: VP
+[10:33:5] - [LOG_DEBUG]: [ParserTree::buildTree]: compressText: (VBN promoted)
+[10:33:5] - [LOG_DEBUG]: [ParserTree::buildTree]: set content for curNode: VBN promoted
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::skipAHeader]: *x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::skipAHeader]: *x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::skipAHeader]: *x*                                                                     *x*
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::skipAHeader]: *x*            Copyright (C) 1991 University of Pennsylvania            *x*
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::skipAHeader]: *x*                                                                     *x*
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::skipAHeader]: *x*    The data in this file are part of a preliminary version of the   *x*
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::skipAHeader]: *x*    Penn Treebank Corpus and should not be redistributed.  Any       *x*
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::skipAHeader]: *x*    research using this corpus or based on it should acknowledge     *x*
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::skipAHeader]: *x*    that fact, as well as the preliminary nature of the corpus.      *x*
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::skipAHeader]: *x*                             (9/9/1991)                             *x*
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::skipAHeader]: *x*                                                                     *x*
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::skipAHeader]: *x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::skipAHeader]: *x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::skipAHeader]: 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]: ( END_OF_TEXT_UNIT )
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]: ( (S 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:     (S 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:       (NP (NNS Lines) 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:         (PP (IN of) 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:           (NP (NNS communications) )))
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:       (AUX (VBD were) )
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:       (VP (VBN established) 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:         (PP (IN between) 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:           (NP (DT the) (CD two) (NNS companies) ))))
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:     (CC and) 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:     (S 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:       (NP (JJ several) (NNP Du) (NNP Pont) (NNS products) )
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:       (AUX (VBD were) )
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:       (ADVP (RB actively) )
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:       (VP (VBN promoted) )))
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:   (. .) )
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]: ( END_OF_TEXT_UNIT )
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]: ( END_OF_TEXT_UNIT )
+
+[10:33:44] - [LOG_FATAL]: [testParserFileReader1]: the parserTree: ( (S(S(NP (NNS Lines)(PP (IN of)(NP (NNS communications) )))(AUX (VBD were) )(VP (VBN established)(PP (IN between)(NP (DT the) (CD two) (NNS companies) ))))(CC and)(S(NP (JJ several) (NNP Du) (NNP Pont) (NNS products) )(AUX (VBD were) )(ADVP (RB actively) )(VP (VBN promoted) )))(. .) )
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]: ( END_OF_TEXT_UNIT )
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]: ( (S 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:     (NP (DT A) 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:       (ADJP (JJ former) )
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:       (NNP Du) (NNP Pont) (NN official) )
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:     (VP 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:       (VP (VBD became) 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:         (NP (DT a) 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:           (NP (NNP General) (NNPS Motors) )
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:           (NN vice) (NN president) ))
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:       (CC and) 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:       (VP (VBN set) 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:         (PRT (IN about) )
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:         (S 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:           (NP (-NONE- *) )
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:           (VP (VBG maximizing) 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:             (NP 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:               (NP (NNP Du) (NNP Pont) )
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:               (POS 's) (NN share) 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:               (PP (IN of) 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:                 (NP (DT the) 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:                   (NP (NNP General) (NNPS Motors) )
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:                   (NN market) ))))))))
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:   (. .) )
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]: ( END_OF_TEXT_UNIT )
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]: ( END_OF_TEXT_UNIT )
+
+[10:33:44] - [LOG_FATAL]: [testParserFileReader1]: the parserTree: ( (S(NP (DT A)(ADJP (JJ former) )(NNP Du) (NNP Pont) (NN official) )(VP(VP (VBD became)(NP (DT a)(NP (NNP General) (NNPS Motors) )(NN vice) (NN president) ))(CC and)(VP (VBN set)(PRT (IN about) )(S(NP (-NONE- *) )(VP (VBG maximizing)(NP(NP (NNP Du) (NNP Pont) )(POS 's) (NN share)(PP (IN of)(NP (DT the)(NP (NNP General) (NNPS Motors) )(NN market) ))))))))(. .) )
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]: ( END_OF_TEXT_UNIT )
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]: ( (S 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:     (S 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:       (NP (NNS Lines) 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:         (PP (IN of) 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:           (NP (NNS communications) )))
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:       (AUX (VBD were) )
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:       (VP (VBN established) 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:         (PP (IN between) 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:           (NP (DT the) (CD two) (NNS companies) ))))
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:     (CC and) 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:     (S 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:       (NP (JJ several) (NNP Du) (NNP Pont) (NNS products) )
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:       (AUX (VBD were) )
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:       (ADVP (RB actively) )
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:       (VP (VBN promoted) )))
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:   (. .) )
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]: ( END_OF_TEXT_UNIT )
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]: ( END_OF_TEXT_UNIT )
+
+[10:33:44] - [LOG_FATAL]: [testParserFileReader1]: the parserTree: ( (S(S(NP (NNS Lines)(PP (IN of)(NP (NNS communications) )))(AUX (VBD were) )(VP (VBN established)(PP (IN between)(NP (DT the) (CD two) (NNS companies) ))))(CC and)(S(NP (JJ several) (NNP Du) (NNP Pont) (NNS products) )(AUX (VBD were) )(ADVP (RB actively) )(VP (VBN promoted) )))(. .) )
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]: ( END_OF_TEXT_UNIT )
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]: ( (S 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:     (PP (IN Within) 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:       (NP (DT a) (JJ few) (NNS years) ))
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:     (S 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:       (NP 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:         (ADJP (JJ various) )
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:         (NP (NNP Du) (NNP Pont) )
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:         (ADJP (VBN manufactured) )
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:         (NNS items) )
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:       (AUX (VBD were) )
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:       (VP (VBG filling) 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:         (NP (DT the) 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:           (ADJP (JJ entire) )
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:           (NNS requirements) 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:           (PP (IN of) 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:             (NP 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:               (PP 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:                 (PP (IN from) 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:                   (NP (CD four) ))
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:                 (PP (TO to) 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:                   (NP (CD seven) )))
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:               (PP (IN of) 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:                 (NP 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:                   (NP (NNP General) (NNPS Motors) )
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:                   (POS ') (CD eight) (VBG operating) (NNS divisions) ))))))))
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:   (. .) )
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]: ( END_OF_TEXT_UNIT )
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]: ( END_OF_TEXT_UNIT )
+
+[10:33:44] - [LOG_FATAL]: [testParserFileReader1]: the parserTree: ( (S(PP (IN Within)(NP (DT a) (JJ few) (NNS years) ))(S(NP(ADJP (JJ various) )(NP (NNP Du) (NNP Pont) )(ADJP (VBN manufactured) )(NNS items) )(AUX (VBD were) )(VP (VBG filling)(NP (DT the)(ADJP (JJ entire) )(NNS requirements)(PP (IN of)(NP(PP(PP (IN from)(NP (CD four) ))(PP (TO to)(NP (CD seven) )))(PP (IN of)(NP(NP (NNP General) (NNPS Motors) )(POS ') (CD eight) (VBG operating) (NNS divisions) ))))))))(. .) )
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]: ( END_OF_TEXT_UNIT )
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]: ( (S 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:     (S 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:       (NP 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:         (NP (DT The) 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:           (NP (NNP Fisher) (NNP Body) )
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:           (NN division) )
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:         (, ,) 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:         (ADVP (RB long) )
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:         (VP (VBN controlled) 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:           (PP (IN by) 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:             (NP (DT the) (NNP Fisher) (NNS brothers) ))
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:           (PP (IN under) 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:             (NP (DT a) (NN voting) (NN trust) ))))
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:       (ADVP (RB even) )
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:       (SBAR (IN though) 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:         (S 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:           (NP (NNP General) (NNPS Motors) )
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:           (VP (VBD owned) 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:             (NP (DT a) (NN majority) 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:               (PP (IN of) 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:                 (NP (PRP$ its) (NN stock) ))))))
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:       (, ,) 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:       (VP (VBD followed) 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:         (NP (DT an) 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:           (ADJP (JJ independent) )
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:           (NN course) )
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:         (PP (IN for) 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:           (NP (JJ many) (NNS years) ))))
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:     (, ,) (CC but) 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:     (S 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:       (PP (IN by) 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:         (NP 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:           (NP (CD 1947) )
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:           (CC and) 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:           (NP (CD 1948) )))
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:       (S 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:         (S (`` ``) 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:           (NP (NN resistance) )
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:           (AUX (VBD had) )
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:           (VP (VBN collapsed) )
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:           ('' '') )
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:         (CC and) 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:         (S 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:           (NP (PRP$ its) (NNS purchases) 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:             (PP (IN from) 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:               (NP (NNP Du) (NNP Pont) )))
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:           (VP (`` ``) (VBD compared) 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:             (ADVP (RB favorably) )
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:             ('' '') 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:             (PP (IN with) 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:               (NP (NNS purchases) 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:                 (PP (IN by) 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:                   (NP 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:                     (ADJP (JJ other) )
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:                     (NNP General) (NNPS Motors) (NNS divisions) )))))))))
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:   (. .) )
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]: ( END_OF_TEXT_UNIT )
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]: ( END_OF_TEXT_UNIT )
+
+[10:33:44] - [LOG_FATAL]: [testParserFileReader1]: the parserTree: ( (S(S(NP(NP (DT The)(NP (NNP Fisher) (NNP Body) )(NN division) )(, ,)(ADVP (RB long) )(VP (VBN controlled)(PP (IN by)(NP (DT the) (NNP Fisher) (NNS brothers) ))(PP (IN under)(NP (DT a) (NN voting) (NN trust) ))))(ADVP (RB even) )(SBAR (IN though)(S(NP (NNP General) (NNPS Motors) )(VP (VBD owned)(NP (DT a) (NN majority)(PP (IN of)(NP (PRP$ its) (NN stock) ))))))(, ,)(VP (VBD followed)(NP (DT an)(ADJP (JJ independent) )(NN course) )(PP (IN for)(NP (JJ many) (NNS years) ))))(, ,) (CC but)(S(PP (IN by)(NP(NP (CD 1947) )(CC and)(NP (CD 1948) )))(S(S (`` ``)(NP (NN resistance) )(AUX (VBD had) )(VP (VBN collapsed) )('' '') )(CC and)(S(NP (PRP$ its) (NNS purchases)(PP (IN from)(NP (NNP Du) (NNP Pont) )))(VP (`` ``) (VBD compared)(ADVP (RB favorably) )('' '')(PP (IN with)(NP (NNS purchases)(PP (IN by)(NP(ADJP (JJ other) )(NNP General) (NNPS Motors) (NNS divisions) )))))))))(. .) )
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]: ( END_OF_TEXT_UNIT )
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]: ( (S 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:     (S 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:       (NP (NNS Competitors) )
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:       (VP (VBD came) 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:         (S 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:           (NP (-NONE- *) )
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:           (AUX (TO to) )
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:           (VP (VB receive) 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:             (NP 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:               (ADJP (JJR higher) )
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:               (NN percentage) 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:               (PP (IN of) 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:                 (NP (NNP General) (NNPS Motors) (NN business) ))))))
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:       (PP (IN in) 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:         (NP 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:           (ADJP (JJR later) )
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:           (NNS years) )))
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:     (, ,) (CC but) 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:     (S 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:       (NP (PRP it) )
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:       (VP (VBZ is) 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:         (ADJP (`` ``) (JJ likely) ('' '') 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:           (SBAR (IN that) 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:             (S 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:               (NP (DT this) (NN trend) )
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:               (VP (VBD stemmed) (`` ``) 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:                 (PP (IN at) 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:                   (NP 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:                     (ADJP (JJS least) )))
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:                 (PP (IN in) 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:                   (NP (NN part) ))
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:                 ('' '') 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:                 (PP (IN from) 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:                   (NP 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:                     (NP (DT the) (NNS needs) 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:                       (PP (IN of) 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:                         (NP (NNP General) (NNPS Motors) )))
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:                     (VP (VBG outstripping) 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:                       (NP 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:                         (NP (NNP Du) (NNP Pont) )
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:                         (POS 's) (NN capacity) )))))))))))
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:   (. .) )
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]: ( END_OF_TEXT_UNIT )
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]: ( END_OF_TEXT_UNIT )
+
+[10:33:44] - [LOG_FATAL]: [testParserFileReader1]: the parserTree: ( (S(S(NP (NNS Competitors) )(VP (VBD came)(S(NP (-NONE- *) )(AUX (TO to) )(VP (VB receive)(NP(ADJP (JJR higher) )(NN percentage)(PP (IN of)(NP (NNP General) (NNPS Motors) (NN business) ))))))(PP (IN in)(NP(ADJP (JJR later) )(NNS years) )))(, ,) (CC but)(S(NP (PRP it) )(VP (VBZ is)(ADJP (`` ``) (JJ likely) ('' '')(SBAR (IN that)(S(NP (DT this) (NN trend) )(VP (VBD stemmed) (`` ``)(PP (IN at)(NP(ADJP (JJS least) )))(PP (IN in)(NP (NN part) ))('' '')(PP (IN from)(NP(NP (DT the) (NNS needs)(PP (IN of)(NP (NNP General) (NNPS Motors) )))(VP (VBG outstripping)(NP(NP (NNP Du) (NNP Pont) )(POS 's) (NN capacity) )))))))))))(. .) )
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]: ( END_OF_TEXT_UNIT )
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]: ( (S (`` ``) 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:     (NP 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:       (NP (DT The) (NN fact) )
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:       (SBAR (WP that) 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:         (S 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:           (NP (-NONE- T) )
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:           (VP (VBZ sticks) 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:             (PRT (IN out) )
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:             (PP (IN in) 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:               (NP (DT this) 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:                 (ADJP (JJ voluminous) )
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:                 (NN record) ))))))
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:     (VP (VBZ is) 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:       (SBAR (IN that) 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:         (S 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:           (NP (DT the) (NN bulk) 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:             (PP (IN of) 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:               (NP 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:                 (NP (NNP Du) (NNP Pont) )
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:                 (POS 's) (NN production) )))
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:           (AUX (VBZ has) )
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:           (ADVP (RB always) )
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:           (VP (VBN supplied) 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:             (NP (DT the) 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:               (ADJP (JJS largest) )
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:               (NN part) 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:               (PP (IN of) 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:                 (NP (DT the) (NNS requirements) 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:                   (PP (IN of) 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:                     (NP 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:                       (NP (DT the) (CD one) (NN customer) 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:                         (PP (IN in) 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:                           (NP (DT the) (NN automobile) (NN industry) )))
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:                       (VP (VBN connected) 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:                         (PP (TO to) 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:                           (NP (NNP Du) (NNP Pont) ))
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:                         (PP (IN by) 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:                           (NP (DT a) (NN stock) (NN interest) )))))))))))))
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:   (. .) )
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]: ( END_OF_TEXT_UNIT )
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]: ( END_OF_TEXT_UNIT )
+
+[10:33:44] - [LOG_FATAL]: [testParserFileReader1]: the parserTree: ( (S (`` ``)(NP(NP (DT The) (NN fact) )(SBAR (WP that)(S(NP (-NONE- T) )(VP (VBZ sticks)(PRT (IN out) )(PP (IN in)(NP (DT this)(ADJP (JJ voluminous) )(NN record) ))))))(VP (VBZ is)(SBAR (IN that)(S(NP (DT the) (NN bulk)(PP (IN of)(NP(NP (NNP Du) (NNP Pont) )(POS 's) (NN production) )))(AUX (VBZ has) )(ADVP (RB always) )(VP (VBN supplied)(NP (DT the)(ADJP (JJS largest) )(NN part)(PP (IN of)(NP (DT the) (NNS requirements)(PP (IN of)(NP(NP (DT the) (CD one) (NN customer)(PP (IN in)(NP (DT the) (NN automobile) (NN industry) )))(VP (VBN connected)(PP (TO to)(NP (NNP Du) (NNP Pont) ))(PP (IN by)(NP (DT a) (NN stock) (NN interest) )))))))))))))(. .) )
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]: ( END_OF_TEXT_UNIT )
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]: ( (S 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:     (NP (DT The) (NN inference) 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:       (SBAR-1 (-NONE- *pseudo-attach*) ))
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:     (VP (VBZ is) 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:       (ADJP (JJ overwhelming) ))
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:     (SBAR-1 (IN that) 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:       (S 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:         (NP 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:           (NP (NNP Du) (NNP Pont) )
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:           (POS 's) (VBG commanding) (NN position) )
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:         (X 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:           (X 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:             (AUX (VBD was) )
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:             (VP (VBN promoted) 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:               (PP (IN by) 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:                 (NP (PRP$ its) (NN stock) (NN interest) ))))
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:           (CC and) 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:           (X 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:             (AUX (VBD was) )
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:             (NEG (RB not) )
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:             (VP (VBN gained) 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:               (ADVP (RB solely) )
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:               (PP (IN on) 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:                 (NP 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:                   (ADJP (JJ competitive) )
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:                   (NN merit) ))))))))
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:   ('' '') (. .) )
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]: ( END_OF_TEXT_UNIT )
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]: ( END_OF_TEXT_UNIT )
+
+[10:33:44] - [LOG_FATAL]: [testParserFileReader1]: the parserTree: ( (S(NP (DT The) (NN inference)(SBAR-1 (-NONE- *pseudo-attach*) ))(VP (VBZ is)(ADJP (JJ overwhelming) ))(SBAR-1 (IN that)(S(NP(NP (NNP Du) (NNP Pont) )(POS 's) (VBG commanding) (NN position) )(X(X(AUX (VBD was) )(VP (VBN promoted)(PP (IN by)(NP (PRP$ its) (NN stock) (NN interest) ))))(CC and)(X(AUX (VBD was) )(NEG (RB not) )(VP (VBN gained)(ADVP (RB solely) )(PP (IN on)(NP(ADJP (JJ competitive) )(NN merit) ))))))))('' '') (. .) )
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]: ( END_OF_TEXT_UNIT )
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]: ( (NP 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:     (NP (CD 353) )
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:     (NP (NNP U.S.) )
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:     (, ,) 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:     (PP (IN at) 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:       (NP (CD 605) )))
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:   (. .) )
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]: ( END_OF_TEXT_UNIT )
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]: ( (S 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:     (NP (DT This) (NN Court) )
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:     (VP (VBD agreed) 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:       (PP (IN with) 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:         (NP (DT the) (NN trial) (NN court) ))
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:       (SBAR (`` ``) (IN that) 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:         (S 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:           (NP (NNS considerations) 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:             (PP (IN of) 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:               (NP 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:                 (NP (NN price) )
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:                 (, ,) 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:                 (NP (NN quality) )
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:                 (CC and) 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:                 (NP (NN service) ))))
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:           (AUX (VBD were) )
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:           (NEG (RB not) )
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:           (VP (VBN overlooked) 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:             (PP (IN by) 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:               (NP (DT either) 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:                 (NP (NNP Du) (NNP Pont) )
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:                 (CC or) 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:                 (NP (NNP General) (NNPS Motors) )))))
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:         ('' '') )))
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:   (. .) )
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]: ( END_OF_TEXT_UNIT )
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]: ( END_OF_TEXT_UNIT )
+
+[10:33:44] - [LOG_FATAL]: [testParserFileReader1]: the parserTree: ( (NP(NP (CD 353) )(NP (NNP U.S.) )(, ,)(PP (IN at)(NP (CD 605) )))(. .) )( (S(NP (DT This) (NN Court) )(VP (VBD agreed)(PP (IN with)(NP (DT the) (NN trial) (NN court) ))(SBAR (`` ``) (IN that)(S(NP (NNS considerations)(PP (IN of)(NP(NP (NN price) )(, ,)(NP (NN quality) )(CC and)(NP (NN service) ))))(AUX (VBD were) )(NEG (RB not) )(VP (VBN overlooked)(PP (IN by)(NP (DT either)(NP (NNP Du) (NNP Pont) )(CC or)(NP (NNP General) (NNPS Motors) )))))('' '') )))(. .) )
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]: ( END_OF_TEXT_UNIT )
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]: ( (NP 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:     (NP (CD 353) )
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:     (NP (NNP U.S.) )
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:     (, ,) 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:     (PP (IN at) 
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:       (NP (CD 606) )))
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]:   (. .) )
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]: ( END_OF_TEXT_UNIT )
+
+[10:33:44] - [LOG_DEBUG]: [ParserTreeReader::getParsedTree]: ( END_OF_TEXT_UNIT )
+
+[10:33:44] - [LOG_FATAL]: [testParserFileReader1]: the parserTree: ( (NP(NP (CD 353) )(NP (NNP U.S.) )(, ,)(PP (IN at)(NP (CD 606) )))(. .) )
+[10:33:44] - [LOG_FATAL]: [ParserTree::Constructor]: building the tree with compress text: (NP(NP (CD 353) )(NP (NNP U.S.) )(, ,)(PP (IN at)(NP (CD 606) )))
+[10:33:44] - [LOG_DEBUG]: [ParserTree::buildTree]: compressText: (NP(NP (CD 353) )(NP (NNP U.S.) )(, ,)(PP (IN at)(NP (CD 606) )))
+[10:33:44] - [LOG_DEBUG]: [ParserTree::buildTree]: set content for curNode: NP
+[10:33:44] - [LOG_DEBUG]: [ParserTree::buildTree]: compressText: (NP (CD 353) )
+[10:33:44] - [LOG_DEBUG]: [ParserTree::buildTree]: set content for curNode: NP
+[10:33:44] - [LOG_DEBUG]: [ParserTree::buildTree]: compressText: (CD 353)
+[10:33:44] - [LOG_DEBUG]: [ParserTree::buildTree]: set content for curNode: CD 353
+[10:33:44] - [LOG_DEBUG]: [ParserTree::buildTree]: compressText: (NP (NNP U.S.) )
+[10:33:44] - [LOG_DEBUG]: [ParserTree::buildTree]: set content for curNode: NP
+[10:33:44] - [LOG_DEBUG]: [ParserTree::buildTree]: compressText: (NNP U.S.)
+[10:33:44] - [LOG_DEBUG]: [ParserTree::buildTree]: set content for curNode: NNP U.S.
+[10:33:44] - [LOG_DEBUG]: [ParserTree::buildTree]: compressText: (, ,)
+[10:33:44] - [LOG_DEBUG]: [ParserTree::buildTree]: set content for curNode: , ,
+[10:33:44] - [LOG_DEBUG]: [ParserTree::buildTree]: compressText: (PP (IN at)(NP (CD 606) ))
+[10:33:44] - [LOG_DEBUG]: [ParserTree::buildTree]: set content for curNode: PP
+[10:33:44] - [LOG_DEBUG]: [ParserTree::buildTree]: compressText: (IN at)
+[10:33:44] - [LOG_DEBUG]: [ParserTree::buildTree]: set content for curNode: IN at
+[10:33:44] - [LOG_DEBUG]: [ParserTree::buildTree]: compressText: (NP (CD 606) )
+[10:33:44] - [LOG_DEBUG]: [ParserTree::buildTree]: set content for curNode: NP
+[10:33:44] - [LOG_DEBUG]: [ParserTree::buildTree]: compressText: (CD 606)
+[10:33:44] - [LOG_DEBUG]: [ParserTree::buildTree]: set content for curNode: CD 606

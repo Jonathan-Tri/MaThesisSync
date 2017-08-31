@@ -1,0 +1,4 @@
+The first line!
+The second line!
+This is  a example for c-buffer!
+This is a example for c++-buffer
