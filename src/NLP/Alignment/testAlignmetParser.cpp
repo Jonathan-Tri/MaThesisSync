@@ -31,7 +31,20 @@ void testAlignParser1() {
 	//alignParser.~AlignedDataParsing();
 }
 
-void testAlignParser2() {
-	logging::logFatal("We are define testAlignParser2 after");
+AlignedSentence getAlignSentPair() {
+	logging::logFatal("***Obtain the alignment sentence***");
+	AlignedSentence alignSentPair;
+	AlignedDataParsing alignParser(alignFile);
+	alignParser.skipHeader();
+	int count = 0;
+	while (alignParser.hasNext()) {
+		alignSentPair = alignParser.getAlignedPair();
+		count++;
+		alignSentPair.printMe();
+		if (count > 0) {
+			break;
+		}
+	}
+	return alignSentPair;
 }
 

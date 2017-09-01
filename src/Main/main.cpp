@@ -28,6 +28,7 @@ extern void testEFileWriter();
 //extern void testParserFileReader2();
 //extern void testParserFileReader3();
 extern void testParsedTree1();
+extern void getAlignSentPair();
 
 //extern void testAlignParser1();
 //extern void testAlignParser2();

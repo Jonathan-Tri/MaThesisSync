@@ -14,6 +14,7 @@
 
 Node::Node() {
 	//NumChildren = 0;
+	Content = "";
 }
 
 //Node::Node(Rule rule, std::string content) {
@@ -29,6 +30,10 @@ void Node::addChild(Node* child) {
 
 Node& Node::getChild(size_t index) {
 	return *Children[index];
+}
+
+Node* Node::getPChild(size_t index) {
+	return Children[index];
 }
 
 //void Node::setParent(Node* parent) {
@@ -98,4 +103,3 @@ std::vector<std::string> Node::getLeaves() {
 
 	return res;
 }
-

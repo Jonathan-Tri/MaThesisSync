@@ -31,10 +31,10 @@ public:
 	int getRightmostSrcAlignedWords(int tgtIndex);
 
 	// get the left align index
-	int getLeftAlignIndex(int source, std::string word);
+	int getLeftAlignIndex(std::string word, int source = 1);
 
 	// get the right align index
-	int getRightAlignIndex(int source, std::string word);
+	int getRightAlignIndex(std::string word, int source = 1);
 
 	const std::vector<std::pair<int, int> >& getAligned() const {
 		return Aligned;

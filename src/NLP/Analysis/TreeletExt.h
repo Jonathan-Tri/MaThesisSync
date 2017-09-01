@@ -32,7 +32,11 @@ public:
 		pTree = tree;
 	}
 
+	Node* ExtTreelet(Node* root, int left, int right);
+
 	void execute();
+
+	void addMessage(std::string message);
 
 private:
 	ParserTree pTree;

@@ -30,6 +30,8 @@ public:
 
 	Node& getChild(size_t index);
 
+	Node* getPChild(size_t index);
+
 	size_t getNumOfChildren();
 
 	std::vector<std::string> getLeaves();
@@ -39,10 +41,10 @@ public:
 	~Node();
 
 private:
-	//Node *Parent;
 	std::vector<Node*> Children;
-	//int NumChildren;
 	std::string Content;
+	//Node *Parent;
+	//int NumChildren;
 };
 
 
