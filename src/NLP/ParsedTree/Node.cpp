@@ -7,9 +7,11 @@
 
 #include "Node.h"
 
+#include <stddef.h>
 #include <cstdio>
 #include <iostream>
 
+#include "../../SharedAlgorithm/logging.h"
 #include "../../SharedAlgorithm/SharedAlgorithm.h"
 
 Node::Node() {
@@ -54,9 +56,9 @@ size_t Node::getNumOfChildren() {
 
 Node::~Node() {
 	printf("Destructor the node\n");
-	for (size_t i = 0; i < Children.size(); i++) {
-		delete Children[i];
-	}
+//	for (size_t i = 0; i < Children.size(); i++) {
+//		delete Children[i];
+//	}
 	Children.clear();
 }
 
@@ -70,36 +72,59 @@ void Node::printMe(int tabCnt) {
 
 std::vector<std::string> getLeave(Node node) {
 	std::vector<std::string> res;
-
+	/*logging::logDebug("getLeave for node: %s", node.getContent().c_str());*/
 	int cntChild = node.getNumOfChildren();
 	if (cntChild > 0) {
 		for (int i = 0; i< cntChild; i++) {
 			std::vector<std::string> child = getLeave(node.getChild(i));
-			res.insert(res.end(), child.begin(), child.end());
+			if (!res.empty()) {
+				res.reserve(res.size() + child.size());
+				res.insert(res.end(), child.begin(), child.end());
+			}
+			else {
+				res = child;
+			}
 		}
 	}
 	else {
-		res.push_back(node.getContent());
+		Rule simpleRule(node.getContent());
+		res.push_back(simpleRule.getRHSStr());
 	}
-
+	/*std::string leaves = "";
+	for (int i = 0; i < res.size(); i++) {
+		leaves += res[i] + " ";
+	}
+	logging::logDebug("Leaves got: %s", leaves.c_str());*/
 	return res;
 }
 
 
 std::vector<std::string> Node::getLeaves() {
 	std::vector<std::string> res;
-
+	logging::logDebug("[Node::getLeaves] - Node Content: %s", getContent().c_str());
 	int cntChild = getNumOfChildren();
+	logging::logDebug("[Node::getLeaves] - Node Children: %d", cntChild);
 	if (cntChild > 0) {
 		for (int i = 0; i< cntChild; i++) {
 			Node child = getChild(i);
 			std::vector<std::string> childLeave = getLeave(child);
+			res.reserve(res.size() + childLeave.size());
 			res.insert(res.end(), childLeave.begin(), childLeave.end());
 		}
 	}
 	else {
-		res.push_back(getContent());
+		Rule simpleRule(getContent());
+		res.push_back(simpleRule.getRHSStr());
 	}
-
+	if (!res.empty()) {
+		std::string leaves = "";
+		for (int i = 0; i < res.size(); i++) {
+			leaves += res[i] + " ";
+		}
+		logging::logDebug("[Node::getLeaves] - Node Leaves: %s", leaves.c_str());
+	}
+	else {
+		logging::logDebug("[Node::getLeaves] - Node Leaves: empty");
+	}
 	return res;
 }

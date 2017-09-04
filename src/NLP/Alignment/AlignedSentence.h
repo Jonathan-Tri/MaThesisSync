@@ -40,9 +40,7 @@ public:
 		return Aligned;
 	}
 
-	void setAligned(const std::vector<std::pair<int, int> >& aligned) {
-		Aligned = aligned;
-	}
+	void setAligned(const std::vector<std::pair<int, int> >& aligned);
 
 	const std::vector<std::string>& getSrcSent() const {
 		return SrcSent;
@@ -68,6 +66,7 @@ public:
 		return TgtSent.size();
 	}
 	void printMe();
+	void ownerTest();
 
 //private:
 	std::vector<std::string> SrcSent;

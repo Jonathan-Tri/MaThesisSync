@@ -11,7 +11,7 @@
 #include <string>
 
 #include "SocketException.h"
-#pragma comment(lib, "WS2_32.lib")
+
 
 class ISocket {
 public:

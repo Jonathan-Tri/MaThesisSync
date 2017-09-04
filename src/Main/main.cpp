@@ -8,7 +8,10 @@
 #include <stdlib.h>
 #include <cstdio>
 #include <cstring>
+#include <string>
 
+#include "../NLP/Alignment/AlignedSentence.h"
+#include "../NLP/ParsedTree/ParserTree.h"
 #include "../SharedAlgorithm/logging.h"
 #include "../SharedAlgorithm/SharedAlgorithm.h"
 
@@ -28,10 +31,13 @@ extern void testEFileWriter();
 //extern void testParserFileReader2();
 //extern void testParserFileReader3();
 extern void testParsedTree1();
-extern void getAlignSentPair();
-
+extern AlignedSentence getAlignSentPair();
+extern std::string getAParsedTree();
 //extern void testAlignParser1();
 //extern void testAlignParser2();
+extern void testTreeletExt1(ParserTree ptree, AlignedSentence algsent);
+
+void testTreeletExtAlgorithm();
 
 int main() {
 	initHistoryMsg();
@@ -43,7 +49,9 @@ int main() {
 	//testParserFileReader1();
 	//testParserFileReader2();
 	//testParserFileReader3();
-	testParsedTree1();
+//	testParsedTree1();
+
+	testTreeletExtAlgorithm();
 
 //	testAlignParser1();
 //	testAlignParser2();
@@ -76,3 +84,15 @@ void testMain() {
 	printf("+++++++++ RUNNING TESTING +++++++++!\n");
 }
 
+void testTreeletExtAlgorithm() {
+	printf("**** TEST THE TREELET EXTRACTION ALGORITHM ****\n");
+
+	std::string parsedTreeContent = getAParsedTree();
+
+	ParserTree ptree(parsedTreeContent);
+
+	AlignedSentence algsent = getAlignSentPair();
+
+	// now we do the treelet extraction algorithm
+	testTreeletExt1(ptree, algsent);
+}

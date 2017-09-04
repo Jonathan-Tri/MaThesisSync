@@ -8,7 +8,12 @@
 
 #include "TreeletExt.h"
 
+#include <string>
+#include <vector>
+
+#include "../../FileAdapter/FileType.h"
 #include "../../FileAdapter/FileWriterFactory.h"
+#include "../../SharedAlgorithm/logging.h"
 
 TreeletExt::TreeletExt() {
 	treeletRes = FileWriterFactory::getInstance().create(NEW_FILE_TYPE, "treelet.txt");
@@ -23,7 +28,11 @@ TreeletExt::TreeletExt() {
  */
 Node* TreeletExt::ExtTreelet(Node* T, int left, int right) {
 	Node *result =  new Node();
+	logging::logDebug("[TreeletExt::ExtTreelet] - Extract Treelet for node: %s", T->getContent().c_str());
 	// get the span of node
+	// Jonathan -  important comment:
+	// need to improve the time of get align -> using hash table
+	// more test case here
 	std::vector<std::string> source_span = T->getLeaves();
 	int left_algn = algSent.getLeftAlignIndex(source_span[0]);
 	int right_algn = algSent.getRightAlignIndex(source_span[source_span.size() - 1]);
@@ -47,12 +56,15 @@ Node* TreeletExt::ExtTreelet(Node* T, int left, int right) {
 
 void TreeletExt::execute() {
 //	int SrcCnt = algSent.getSrcSentLen();
-	int TgtCnt = algSent.getTgtSentLen();
+	int TgtCnt = algSent.getTgtSentLen() - 1;
 
+	// test something
+	/*algSent.ownerTest();
+	return;*/
 	for (int i = 0; i < TgtCnt - 1; i++) {
-		for (int j = i + 1; j < TgtCnt; j++) {
+		for (int j = i; j < TgtCnt - 1; j++) {
 			// pTree will keep a treelet that correspond with e[i, j]
-			 ParserTree treelet = ExtTreelet(pTree.getRoot(), i, j);
+			 ParserTree treelet = ExtTreelet(pTree.getRoot(), i + 1, j + 1);
 
 			// output the treelet here
 			std::string span = algSent.SrcSent[i];

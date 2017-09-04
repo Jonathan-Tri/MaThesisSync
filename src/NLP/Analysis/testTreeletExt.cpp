@@ -34,13 +34,13 @@ void testTreeletExt1(ParserTree ptree, AlignedSentence algsent) {
 		srcSent += algsent.SrcSent[i];
 	}
 	treeletExtAlg.addMessage("SrcSent: " + srcSent);
-	logging::logFatal("[testTreeletExt1]: SrcSent: %s", srcSent);
+	logging::logFatal("[testTreeletExt1]: SrcSent: %s", srcSent.c_str());
 	std::string tgtSent = "";
 	for (int i = 0; i < algsent.TgtSent.size(); i++) {
 		tgtSent += algsent.TgtSent[i];
 	}
 	treeletExtAlg.addMessage("TgtSent: " + tgtSent);
-	logging::logFatal("[testTreeletExt1]: TgtSent: %s", tgtSent);
+	logging::logFatal("[testTreeletExt1]: TgtSent: %s", tgtSent.c_str());
 
 	logging::logFatal("--->>Running...");
 	treeletExtAlg.execute();

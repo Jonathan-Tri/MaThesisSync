@@ -16,12 +16,18 @@ class Rule {
 public:
 	Rule();
 
+	Rule(std::string content);
+
+	void buildSimpleRule(std::string content);
+
 	/*
 	 * add a token into the rule depend on hand side flag
 	 * if hand side flag = 1, this token will be added to the left hand
 	 * otherwise it will be added into the right hand
 	 */
 	void addToken(int handFlag, std::string token);
+
+	std::string getRHSStr();
 
 	/*
 	 * print out the rule

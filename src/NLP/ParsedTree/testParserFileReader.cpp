@@ -49,3 +49,20 @@ void testParserFileReader3() {
 	} while (parsedTree.size() > 0);
 }
 
+std::string getAParsedTree() {
+	std::string parsedTree = "";
+
+	ParserTreeReader parserReader(parsedFile);
+	parserReader.skipAHeader();
+
+	do {
+		parsedTree = parserReader.getParsedTree();
+		logging::logFatal("[testParserFileReader3]: the parserTree: %s", parsedTree.c_str());
+		if (parsedTree.size() > 0) {
+			break;
+		}
+	} while (true);
+
+	return parsedTree;
+}
+
