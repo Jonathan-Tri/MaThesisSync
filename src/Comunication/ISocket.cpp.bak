@@ -10,10 +10,8 @@
 #include <string>
 
 #include "SocketException.h"
-#include <winsock.h>
-//#include <winsock2.h>
 
-#ifdef _WIN32
+#ifdef WIN32
 	#include <winsock.h>		// For socket(), connect(), send(), and recv()
 	typedef int socklen_t;
 	typedef char raw_type;
@@ -31,11 +29,7 @@
 
 ISocket::~ISocket() {
 	if (sockDesc >= 0) {
-#ifdef _WIN32
-		closesocket(sockDesc);
-#elif
 		close(sockDesc);
-#endif // _WIN32		
 	}
 	sockDesc = -1;
 }
