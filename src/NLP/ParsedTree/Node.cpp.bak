@@ -54,25 +54,6 @@ size_t Node::getNumOfChildren() {
 	return Children.size();
 }
 
-std::string Node::doGetTree(Node* node) {
-	std::string result = "";
-	int cnt = node->getNumOfChildren();
-	if (cnt == 0) {
-		result = node->getContent();
-	}
-	else {
-		for (int i = 0; i < cnt; i++) {
-			Node* child = node->getPChild(i);
-			result += " " + doGetTree(child);
-		}
-	}
-	return result;
-}
-
-std::string Node::getTree() {
-	return doGetTree(this);
-}
-
 Node::~Node() {
 	printf("Destructor the node\n");
 //	for (size_t i = 0; i < Children.size(); i++) {

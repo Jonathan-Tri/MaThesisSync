@@ -22,10 +22,6 @@ public:
 
 	//void setParent(Node* parent);
 
-	std::string doGetTree(Node *node);
-
-	virtual std::string getTree();
-
 	std::string getContent();
 
 	void setContent(std::string content);
@@ -42,7 +38,7 @@ public:
 
 	void printMe(int tabCnt);
 
-	virtual ~Node();
+	~Node();
 
 private:
 	std::vector<Node*> Children;

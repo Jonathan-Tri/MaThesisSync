@@ -47,10 +47,6 @@ std::string ParserTree::traversal() {
 	return result;
 }
 
-std::string ParserTree::getTree() {
-	return doGetTree(mroot);
-}
-
 void ParserTree::traversal(Node* node, int level) {
 	node->printMe(level);
 	size_t ChildCnt = node->getNumOfChildren();
@@ -103,3 +99,4 @@ Node* ParserTree::buildTree(std::string compressText) {
 ParserTree::~ParserTree() {
 	printf("Cleaned the parsedTree\n");
 }
+

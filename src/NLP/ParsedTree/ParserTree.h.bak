@@ -37,9 +37,8 @@ public:
 	 */
 	std::string traversal();
 
-	virtual std::string getTree();
-
 	Node* getRoot() {return mroot;}
+
 
 	/*
 	 * destructor

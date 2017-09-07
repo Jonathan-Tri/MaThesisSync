@@ -1,0 +1,518 @@
+***Test Treelet Extraction Algorithm****
+The source parsed tree: 
+
+SrcSent: NULLLinesofcommunicationswereestablishedbetweenthetwocompaniesandseveralduPontproductswereactivelypromoted.
+TgtSent: Cácđường_dâyliên_lạc_thông_tinđãđượcthiết_lậpgiữahaicông_tyvàmột_vàisản_phẩmcủaduPontđãđượctích_cựcquảng_bá.
+Span: Các
+Treelet:         
+
+Span: Các đường_dây
+Treelet:    NNS Lines     
+
+Span: Các đường_dây liên_lạc_thông_tin
+Treelet:    NNS Lines  IN of  NNS communications    
+
+Span: Các đường_dây liên_lạc_thông_tin đã
+Treelet:    NNS Lines  IN of  NNS communications     
+
+Span: Các đường_dây liên_lạc_thông_tin đã được
+Treelet:    NNS Lines  IN of  NNS communications  VBD were     
+
+Span: Các đường_dây liên_lạc_thông_tin đã được thiết_lập
+Treelet:    NNS Lines  IN of  NNS communications  VBD were  VBN established   
+
+Span: Các đường_dây liên_lạc_thông_tin đã được thiết_lập giữa
+Treelet:    NNS Lines  IN of  NNS communications  VBD were  VBN established  IN between   
+
+Span: Các đường_dây liên_lạc_thông_tin đã được thiết_lập giữa hai
+Treelet:    NNS Lines  IN of  NNS communications  VBD were  VBN established  IN between   
+
+Span: Các đường_dây liên_lạc_thông_tin đã được thiết_lập giữa hai công_ty
+Treelet:    NNS Lines  IN of  NNS communications  VBD were  VBN established  IN between  DT the CD two NNS companies  
+
+Span: Các đường_dây liên_lạc_thông_tin đã được thiết_lập giữa hai công_ty và
+Treelet:    NNS Lines  IN of  NNS communications  VBD were  VBN established  IN between  DT the CD two NNS companies CC and 
+
+Span: Các đường_dây liên_lạc_thông_tin đã được thiết_lập giữa hai công_ty và một_vài
+Treelet:    NNS Lines  IN of  NNS communications  VBD were  VBN established  IN between  DT the CD two NNS companies CC and   JJ several     VBD were  
+
+Span: Các đường_dây liên_lạc_thông_tin đã được thiết_lập giữa hai công_ty và một_vài sản_phẩm
+Treelet:    NNS Lines  IN of  NNS communications  VBD were  VBN established  IN between  DT the CD two NNS companies CC and   JJ several NNP Du NNP Pont NNS products  VBD were  
+
+Span: Các đường_dây liên_lạc_thông_tin đã được thiết_lập giữa hai công_ty và một_vài sản_phẩm của
+Treelet:    NNS Lines  IN of  NNS communications  VBD were  VBN established  IN between  DT the CD two NNS companies CC and   JJ several NNP Du NNP Pont NNS products  VBD were  
+
+Span: Các đường_dây liên_lạc_thông_tin đã được thiết_lập giữa hai công_ty và một_vài sản_phẩm của du
+Treelet:    NNS Lines  IN of  NNS communications  VBD were  VBN established  IN between  DT the CD two NNS companies CC and   JJ several NNP Du NNP Pont NNS products  VBD were  
+
+Span: Các đường_dây liên_lạc_thông_tin đã được thiết_lập giữa hai công_ty và một_vài sản_phẩm của du Pont
+Treelet:    NNS Lines  IN of  NNS communications  VBD were  VBN established  IN between  DT the CD two NNS companies CC and   JJ several NNP Du NNP Pont NNS products  VBD were  
+
+Span: Các đường_dây liên_lạc_thông_tin đã được thiết_lập giữa hai công_ty và một_vài sản_phẩm của du Pont đã
+Treelet:    NNS Lines  IN of  NNS communications  VBD were  VBN established  IN between  DT the CD two NNS companies CC and   JJ several NNP Du NNP Pont NNS products  VBD were  
+
+Span: Các đường_dây liên_lạc_thông_tin đã được thiết_lập giữa hai công_ty và một_vài sản_phẩm của du Pont đã được
+Treelet:    NNS Lines  IN of  NNS communications  VBD were  VBN established  IN between  DT the CD two NNS companies CC and   JJ several NNP Du NNP Pont NNS products  VBD were   
+
+Span: Các đường_dây liên_lạc_thông_tin đã được thiết_lập giữa hai công_ty và một_vài sản_phẩm của du Pont đã được tích_cực
+Treelet:    NNS Lines  IN of  NNS communications  VBD were  VBN established  IN between  DT the CD two NNS companies CC and   JJ several NNP Du NNP Pont NNS products  VBD were  RB actively  
+
+Span: đường_dây
+Treelet:         
+
+Span: đường_dây liên_lạc_thông_tin
+Treelet:      IN of  NNS communications    
+
+Span: đường_dây liên_lạc_thông_tin đã
+Treelet:      IN of  NNS communications     
+
+Span: đường_dây liên_lạc_thông_tin đã được
+Treelet:      IN of  NNS communications  VBD were     
+
+Span: đường_dây liên_lạc_thông_tin đã được thiết_lập
+Treelet:      IN of  NNS communications  VBD were  VBN established   
+
+Span: đường_dây liên_lạc_thông_tin đã được thiết_lập giữa
+Treelet:      IN of  NNS communications  VBD were  VBN established  IN between   
+
+Span: đường_dây liên_lạc_thông_tin đã được thiết_lập giữa hai
+Treelet:      IN of  NNS communications  VBD were  VBN established  IN between   
+
+Span: đường_dây liên_lạc_thông_tin đã được thiết_lập giữa hai công_ty
+Treelet:      IN of  NNS communications  VBD were  VBN established  IN between  DT the CD two NNS companies  
+
+Span: đường_dây liên_lạc_thông_tin đã được thiết_lập giữa hai công_ty và
+Treelet:      IN of  NNS communications  VBD were  VBN established  IN between  DT the CD two NNS companies CC and 
+
+Span: đường_dây liên_lạc_thông_tin đã được thiết_lập giữa hai công_ty và một_vài
+Treelet:      IN of  NNS communications  VBD were  VBN established  IN between  DT the CD two NNS companies CC and   JJ several     VBD were  
+
+Span: đường_dây liên_lạc_thông_tin đã được thiết_lập giữa hai công_ty và một_vài sản_phẩm
+Treelet:      IN of  NNS communications  VBD were  VBN established  IN between  DT the CD two NNS companies CC and   JJ several NNP Du NNP Pont NNS products  VBD were  
+
+Span: đường_dây liên_lạc_thông_tin đã được thiết_lập giữa hai công_ty và một_vài sản_phẩm của
+Treelet:      IN of  NNS communications  VBD were  VBN established  IN between  DT the CD two NNS companies CC and   JJ several NNP Du NNP Pont NNS products  VBD were  
+
+Span: đường_dây liên_lạc_thông_tin đã được thiết_lập giữa hai công_ty và một_vài sản_phẩm của du
+Treelet:      IN of  NNS communications  VBD were  VBN established  IN between  DT the CD two NNS companies CC and   JJ several NNP Du NNP Pont NNS products  VBD were  
+
+Span: đường_dây liên_lạc_thông_tin đã được thiết_lập giữa hai công_ty và một_vài sản_phẩm của du Pont
+Treelet:      IN of  NNS communications  VBD were  VBN established  IN between  DT the CD two NNS companies CC and   JJ several NNP Du NNP Pont NNS products  VBD were  
+
+Span: đường_dây liên_lạc_thông_tin đã được thiết_lập giữa hai công_ty và một_vài sản_phẩm của du Pont đã
+Treelet:      IN of  NNS communications  VBD were  VBN established  IN between  DT the CD two NNS companies CC and   JJ several NNP Du NNP Pont NNS products  VBD were  
+
+Span: đường_dây liên_lạc_thông_tin đã được thiết_lập giữa hai công_ty và một_vài sản_phẩm của du Pont đã được
+Treelet:      IN of  NNS communications  VBD were  VBN established  IN between  DT the CD two NNS companies CC and   JJ several NNP Du NNP Pont NNS products  VBD were   
+
+Span: đường_dây liên_lạc_thông_tin đã được thiết_lập giữa hai công_ty và một_vài sản_phẩm của du Pont đã được tích_cực
+Treelet:      IN of  NNS communications  VBD were  VBN established  IN between  DT the CD two NNS companies CC and   JJ several NNP Du NNP Pont NNS products  VBD were  RB actively  
+
+Span: liên_lạc_thông_tin
+Treelet:      IN of  NNS communications    
+
+Span: liên_lạc_thông_tin đã
+Treelet:      IN of  NNS communications     
+
+Span: liên_lạc_thông_tin đã được
+Treelet:      IN of  NNS communications  VBD were     
+
+Span: liên_lạc_thông_tin đã được thiết_lập
+Treelet:      IN of  NNS communications  VBD were  VBN established   
+
+Span: liên_lạc_thông_tin đã được thiết_lập giữa
+Treelet:      IN of  NNS communications  VBD were  VBN established  IN between   
+
+Span: liên_lạc_thông_tin đã được thiết_lập giữa hai
+Treelet:      IN of  NNS communications  VBD were  VBN established  IN between   
+
+Span: liên_lạc_thông_tin đã được thiết_lập giữa hai công_ty
+Treelet:      IN of  NNS communications  VBD were  VBN established  IN between  DT the CD two NNS companies  
+
+Span: liên_lạc_thông_tin đã được thiết_lập giữa hai công_ty và
+Treelet:      IN of  NNS communications  VBD were  VBN established  IN between  DT the CD two NNS companies CC and 
+
+Span: liên_lạc_thông_tin đã được thiết_lập giữa hai công_ty và một_vài
+Treelet:      IN of  NNS communications  VBD were  VBN established  IN between  DT the CD two NNS companies CC and   JJ several     VBD were  
+
+Span: liên_lạc_thông_tin đã được thiết_lập giữa hai công_ty và một_vài sản_phẩm
+Treelet:      IN of  NNS communications  VBD were  VBN established  IN between  DT the CD two NNS companies CC and   JJ several NNP Du NNP Pont NNS products  VBD were  
+
+Span: liên_lạc_thông_tin đã được thiết_lập giữa hai công_ty và một_vài sản_phẩm của
+Treelet:      IN of  NNS communications  VBD were  VBN established  IN between  DT the CD two NNS companies CC and   JJ several NNP Du NNP Pont NNS products  VBD were  
+
+Span: liên_lạc_thông_tin đã được thiết_lập giữa hai công_ty và một_vài sản_phẩm của du
+Treelet:      IN of  NNS communications  VBD were  VBN established  IN between  DT the CD two NNS companies CC and   JJ several NNP Du NNP Pont NNS products  VBD were  
+
+Span: liên_lạc_thông_tin đã được thiết_lập giữa hai công_ty và một_vài sản_phẩm của du Pont
+Treelet:      IN of  NNS communications  VBD were  VBN established  IN between  DT the CD two NNS companies CC and   JJ several NNP Du NNP Pont NNS products  VBD were  
+
+Span: liên_lạc_thông_tin đã được thiết_lập giữa hai công_ty và một_vài sản_phẩm của du Pont đã
+Treelet:      IN of  NNS communications  VBD were  VBN established  IN between  DT the CD two NNS companies CC and   JJ several NNP Du NNP Pont NNS products  VBD were  
+
+Span: liên_lạc_thông_tin đã được thiết_lập giữa hai công_ty và một_vài sản_phẩm của du Pont đã được
+Treelet:      IN of  NNS communications  VBD were  VBN established  IN between  DT the CD two NNS companies CC and   JJ several NNP Du NNP Pont NNS products  VBD were   
+
+Span: liên_lạc_thông_tin đã được thiết_lập giữa hai công_ty và một_vài sản_phẩm của du Pont đã được tích_cực
+Treelet:      IN of  NNS communications  VBD were  VBN established  IN between  DT the CD two NNS companies CC and   JJ several NNP Du NNP Pont NNS products  VBD were  RB actively  
+
+Span: đã
+Treelet:        
+
+Span: đã được
+Treelet:     VBD were     
+
+Span: đã được thiết_lập
+Treelet:     VBD were  VBN established   
+
+Span: đã được thiết_lập giữa
+Treelet:     VBD were  VBN established  IN between   
+
+Span: đã được thiết_lập giữa hai
+Treelet:     VBD were  VBN established  IN between   
+
+Span: đã được thiết_lập giữa hai công_ty
+Treelet:     VBD were  VBN established  IN between  DT the CD two NNS companies  
+
+Span: đã được thiết_lập giữa hai công_ty và
+Treelet:     VBD were  VBN established  IN between  DT the CD two NNS companies CC and 
+
+Span: đã được thiết_lập giữa hai công_ty và một_vài
+Treelet:     VBD were  VBN established  IN between  DT the CD two NNS companies CC and   JJ several     VBD were  
+
+Span: đã được thiết_lập giữa hai công_ty và một_vài sản_phẩm
+Treelet:     VBD were  VBN established  IN between  DT the CD two NNS companies CC and   JJ several NNP Du NNP Pont NNS products  VBD were  
+
+Span: đã được thiết_lập giữa hai công_ty và một_vài sản_phẩm của
+Treelet:     VBD were  VBN established  IN between  DT the CD two NNS companies CC and   JJ several NNP Du NNP Pont NNS products  VBD were  
+
+Span: đã được thiết_lập giữa hai công_ty và một_vài sản_phẩm của du
+Treelet:     VBD were  VBN established  IN between  DT the CD two NNS companies CC and   JJ several NNP Du NNP Pont NNS products  VBD were  
+
+Span: đã được thiết_lập giữa hai công_ty và một_vài sản_phẩm của du Pont
+Treelet:     VBD were  VBN established  IN between  DT the CD two NNS companies CC and   JJ several NNP Du NNP Pont NNS products  VBD were  
+
+Span: đã được thiết_lập giữa hai công_ty và một_vài sản_phẩm của du Pont đã
+Treelet:     VBD were  VBN established  IN between  DT the CD two NNS companies CC and   JJ several NNP Du NNP Pont NNS products  VBD were  
+
+Span: đã được thiết_lập giữa hai công_ty và một_vài sản_phẩm của du Pont đã được
+Treelet:     VBD were  VBN established  IN between  DT the CD two NNS companies CC and   JJ several NNP Du NNP Pont NNS products  VBD were   
+
+Span: đã được thiết_lập giữa hai công_ty và một_vài sản_phẩm của du Pont đã được tích_cực
+Treelet:     VBD were  VBN established  IN between  DT the CD two NNS companies CC and   JJ several NNP Du NNP Pont NNS products  VBD were  RB actively  
+
+Span: được
+Treelet:          
+
+Span: được thiết_lập
+Treelet:       VBN established   
+
+Span: được thiết_lập giữa
+Treelet:       VBN established  IN between   
+
+Span: được thiết_lập giữa hai
+Treelet:       VBN established  IN between   
+
+Span: được thiết_lập giữa hai công_ty
+Treelet:       VBN established  IN between  DT the CD two NNS companies  
+
+Span: được thiết_lập giữa hai công_ty và
+Treelet:       VBN established  IN between  DT the CD two NNS companies CC and 
+
+Span: được thiết_lập giữa hai công_ty và một_vài
+Treelet:       VBN established  IN between  DT the CD two NNS companies CC and   JJ several       
+
+Span: được thiết_lập giữa hai công_ty và một_vài sản_phẩm
+Treelet:       VBN established  IN between  DT the CD two NNS companies CC and   JJ several NNP Du NNP Pont NNS products    
+
+Span: được thiết_lập giữa hai công_ty và một_vài sản_phẩm của
+Treelet:       VBN established  IN between  DT the CD two NNS companies CC and   JJ several NNP Du NNP Pont NNS products    
+
+Span: được thiết_lập giữa hai công_ty và một_vài sản_phẩm của du
+Treelet:       VBN established  IN between  DT the CD two NNS companies CC and   JJ several NNP Du NNP Pont NNS products    
+
+Span: được thiết_lập giữa hai công_ty và một_vài sản_phẩm của du Pont
+Treelet:       VBN established  IN between  DT the CD two NNS companies CC and   JJ several NNP Du NNP Pont NNS products    
+
+Span: được thiết_lập giữa hai công_ty và một_vài sản_phẩm của du Pont đã
+Treelet:       VBN established  IN between  DT the CD two NNS companies CC and   JJ several NNP Du NNP Pont NNS products    
+
+Span: được thiết_lập giữa hai công_ty và một_vài sản_phẩm của du Pont đã được
+Treelet:       VBN established  IN between  DT the CD two NNS companies CC and   JJ several NNP Du NNP Pont NNS products     
+
+Span: được thiết_lập giữa hai công_ty và một_vài sản_phẩm của du Pont đã được tích_cực
+Treelet:       VBN established  IN between  DT the CD two NNS companies CC and   JJ several NNP Du NNP Pont NNS products    RB actively  
+
+Span: thiết_lập
+Treelet:         
+
+Span: thiết_lập giữa
+Treelet:        IN between   
+
+Span: thiết_lập giữa hai
+Treelet:        IN between   
+
+Span: thiết_lập giữa hai công_ty
+Treelet:        IN between  DT the CD two NNS companies  
+
+Span: thiết_lập giữa hai công_ty và
+Treelet:        IN between  DT the CD two NNS companies CC and 
+
+Span: thiết_lập giữa hai công_ty và một_vài
+Treelet:        IN between  DT the CD two NNS companies CC and   JJ several      
+
+Span: thiết_lập giữa hai công_ty và một_vài sản_phẩm
+Treelet:        IN between  DT the CD two NNS companies CC and   JJ several NNP Du NNP Pont NNS products   
+
+Span: thiết_lập giữa hai công_ty và một_vài sản_phẩm của
+Treelet:        IN between  DT the CD two NNS companies CC and   JJ several NNP Du NNP Pont NNS products   
+
+Span: thiết_lập giữa hai công_ty và một_vài sản_phẩm của du
+Treelet:        IN between  DT the CD two NNS companies CC and   JJ several NNP Du NNP Pont NNS products   
+
+Span: thiết_lập giữa hai công_ty và một_vài sản_phẩm của du Pont
+Treelet:        IN between  DT the CD two NNS companies CC and   JJ several NNP Du NNP Pont NNS products   
+
+Span: thiết_lập giữa hai công_ty và một_vài sản_phẩm của du Pont đã
+Treelet:        IN between  DT the CD two NNS companies CC and   JJ several NNP Du NNP Pont NNS products   
+
+Span: thiết_lập giữa hai công_ty và một_vài sản_phẩm của du Pont đã được
+Treelet:        IN between  DT the CD two NNS companies CC and   JJ several NNP Du NNP Pont NNS products    
+
+Span: thiết_lập giữa hai công_ty và một_vài sản_phẩm của du Pont đã được tích_cực
+Treelet:        IN between  DT the CD two NNS companies CC and   JJ several NNP Du NNP Pont NNS products   RB actively  
+
+Span: giữa
+Treelet:        IN between   
+
+Span: giữa hai
+Treelet:        IN between   
+
+Span: giữa hai công_ty
+Treelet:        IN between  DT the CD two NNS companies  
+
+Span: giữa hai công_ty và
+Treelet:        IN between  DT the CD two NNS companies CC and 
+
+Span: giữa hai công_ty và một_vài
+Treelet:        IN between  DT the CD two NNS companies CC and   JJ several      
+
+Span: giữa hai công_ty và một_vài sản_phẩm
+Treelet:        IN between  DT the CD two NNS companies CC and   JJ several NNP Du NNP Pont NNS products   
+
+Span: giữa hai công_ty và một_vài sản_phẩm của
+Treelet:        IN between  DT the CD two NNS companies CC and   JJ several NNP Du NNP Pont NNS products   
+
+Span: giữa hai công_ty và một_vài sản_phẩm của du
+Treelet:        IN between  DT the CD two NNS companies CC and   JJ several NNP Du NNP Pont NNS products   
+
+Span: giữa hai công_ty và một_vài sản_phẩm của du Pont
+Treelet:        IN between  DT the CD two NNS companies CC and   JJ several NNP Du NNP Pont NNS products   
+
+Span: giữa hai công_ty và một_vài sản_phẩm của du Pont đã
+Treelet:        IN between  DT the CD two NNS companies CC and   JJ several NNP Du NNP Pont NNS products   
+
+Span: giữa hai công_ty và một_vài sản_phẩm của du Pont đã được
+Treelet:        IN between  DT the CD two NNS companies CC and   JJ several NNP Du NNP Pont NNS products    
+
+Span: giữa hai công_ty và một_vài sản_phẩm của du Pont đã được tích_cực
+Treelet:        IN between  DT the CD two NNS companies CC and   JJ several NNP Du NNP Pont NNS products   RB actively  
+
+Span: hai
+Treelet:           
+
+Span: hai công_ty
+Treelet:          DT the CD two NNS companies  
+
+Span: hai công_ty và
+Treelet:          DT the CD two NNS companies CC and 
+
+Span: hai công_ty và một_vài
+Treelet:          DT the CD two NNS companies CC and   JJ several      
+
+Span: hai công_ty và một_vài sản_phẩm
+Treelet:          DT the CD two NNS companies CC and   JJ several NNP Du NNP Pont NNS products   
+
+Span: hai công_ty và một_vài sản_phẩm của
+Treelet:          DT the CD two NNS companies CC and   JJ several NNP Du NNP Pont NNS products   
+
+Span: hai công_ty và một_vài sản_phẩm của du
+Treelet:          DT the CD two NNS companies CC and   JJ several NNP Du NNP Pont NNS products   
+
+Span: hai công_ty và một_vài sản_phẩm của du Pont
+Treelet:          DT the CD two NNS companies CC and   JJ several NNP Du NNP Pont NNS products   
+
+Span: hai công_ty và một_vài sản_phẩm của du Pont đã
+Treelet:          DT the CD two NNS companies CC and   JJ several NNP Du NNP Pont NNS products   
+
+Span: hai công_ty và một_vài sản_phẩm của du Pont đã được
+Treelet:          DT the CD two NNS companies CC and   JJ several NNP Du NNP Pont NNS products    
+
+Span: hai công_ty và một_vài sản_phẩm của du Pont đã được tích_cực
+Treelet:          DT the CD two NNS companies CC and   JJ several NNP Du NNP Pont NNS products   RB actively  
+
+Span: công_ty
+Treelet:          DT the CD two NNS companies  
+
+Span: công_ty và
+Treelet:          DT the CD two NNS companies CC and 
+
+Span: công_ty và một_vài
+Treelet:          DT the CD two NNS companies CC and   JJ several      
+
+Span: công_ty và một_vài sản_phẩm
+Treelet:          DT the CD two NNS companies CC and   JJ several NNP Du NNP Pont NNS products   
+
+Span: công_ty và một_vài sản_phẩm của
+Treelet:          DT the CD two NNS companies CC and   JJ several NNP Du NNP Pont NNS products   
+
+Span: công_ty và một_vài sản_phẩm của du
+Treelet:          DT the CD two NNS companies CC and   JJ several NNP Du NNP Pont NNS products   
+
+Span: công_ty và một_vài sản_phẩm của du Pont
+Treelet:          DT the CD two NNS companies CC and   JJ several NNP Du NNP Pont NNS products   
+
+Span: công_ty và một_vài sản_phẩm của du Pont đã
+Treelet:          DT the CD two NNS companies CC and   JJ several NNP Du NNP Pont NNS products   
+
+Span: công_ty và một_vài sản_phẩm của du Pont đã được
+Treelet:          DT the CD two NNS companies CC and   JJ several NNP Du NNP Pont NNS products    
+
+Span: công_ty và một_vài sản_phẩm của du Pont đã được tích_cực
+Treelet:          DT the CD two NNS companies CC and   JJ several NNP Du NNP Pont NNS products   RB actively  
+
+Span: và
+Treelet:   CC and 
+
+Span: và một_vài
+Treelet:   CC and   JJ several      
+
+Span: và một_vài sản_phẩm
+Treelet:   CC and   JJ several NNP Du NNP Pont NNS products   
+
+Span: và một_vài sản_phẩm của
+Treelet:   CC and   JJ several NNP Du NNP Pont NNS products   
+
+Span: và một_vài sản_phẩm của du
+Treelet:   CC and   JJ several NNP Du NNP Pont NNS products   
+
+Span: và một_vài sản_phẩm của du Pont
+Treelet:   CC and   JJ several NNP Du NNP Pont NNS products   
+
+Span: và một_vài sản_phẩm của du Pont đã
+Treelet:   CC and   JJ several NNP Du NNP Pont NNS products   
+
+Span: và một_vài sản_phẩm của du Pont đã được
+Treelet:   CC and   JJ several NNP Du NNP Pont NNS products    
+
+Span: và một_vài sản_phẩm của du Pont đã được tích_cực
+Treelet:   CC and   JJ several NNP Du NNP Pont NNS products   RB actively  
+
+Span: một_vài
+Treelet:      JJ several      
+
+Span: một_vài sản_phẩm
+Treelet:      JJ several NNP Du NNP Pont NNS products   
+
+Span: một_vài sản_phẩm của
+Treelet:      JJ several NNP Du NNP Pont NNS products   
+
+Span: một_vài sản_phẩm của du
+Treelet:      JJ several NNP Du NNP Pont NNS products   
+
+Span: một_vài sản_phẩm của du Pont
+Treelet:      JJ several NNP Du NNP Pont NNS products   
+
+Span: một_vài sản_phẩm của du Pont đã
+Treelet:      JJ several NNP Du NNP Pont NNS products   
+
+Span: một_vài sản_phẩm của du Pont đã được
+Treelet:      JJ several NNP Du NNP Pont NNS products    
+
+Span: một_vài sản_phẩm của du Pont đã được tích_cực
+Treelet:      JJ several NNP Du NNP Pont NNS products   RB actively  
+
+Span: sản_phẩm
+Treelet:         NNS products   
+
+Span: sản_phẩm của
+Treelet:         NNS products   
+
+Span: sản_phẩm của du
+Treelet:         NNS products   
+
+Span: sản_phẩm của du Pont
+Treelet:        NNP Pont NNS products   
+
+Span: sản_phẩm của du Pont đã
+Treelet:        NNP Pont NNS products   
+
+Span: sản_phẩm của du Pont đã được
+Treelet:        NNP Pont NNS products    
+
+Span: sản_phẩm của du Pont đã được tích_cực
+Treelet:        NNP Pont NNS products   RB actively  
+
+Span: của
+Treelet:        
+
+Span: của du
+Treelet:        
+
+Span: của du Pont
+Treelet:        
+
+Span: của du Pont đã
+Treelet:        
+
+Span: của du Pont đã được
+Treelet:         
+
+Span: của du Pont đã được tích_cực
+Treelet:        RB actively  
+
+Span: du
+Treelet:        
+
+Span: du Pont
+Treelet:        
+
+Span: du Pont đã
+Treelet:        
+
+Span: du Pont đã được
+Treelet:         
+
+Span: du Pont đã được tích_cực
+Treelet:        RB actively  
+
+Span: Pont
+Treelet:        
+
+Span: Pont đã
+Treelet:        
+
+Span: Pont đã được
+Treelet:         
+
+Span: Pont đã được tích_cực
+Treelet:        RB actively  
+
+Span: đã
+Treelet:        
+
+Span: đã được
+Treelet:         
+
+Span: đã được tích_cực
+Treelet:        RB actively  
+
+Span: được
+Treelet:         
+
+Span: được tích_cực
+Treelet:        RB actively  
+
+Span: tích_cực
+Treelet:        RB actively  
+

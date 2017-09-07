@@ -14,7 +14,6 @@
 #include "../../FileAdapter/FileType.h"
 #include "../../FileAdapter/FileWriterFactory.h"
 #include "../../SharedAlgorithm/logging.h"
-#include "../../SharedAlgorithm/SharedAlgorithm.h"
 
 TreeletExt::TreeletExt() {
 	treeletRes = FileWriterFactory::getInstance().create(NEW_FILE_TYPE, "treelet.txt");
@@ -35,12 +34,8 @@ Node* TreeletExt::ExtTreelet(Node* T, int left, int right) {
 	// need to improve the time of get align -> using hash table
 	// more test case here
 	std::vector<std::string> source_span = T->getLeaves();
-	logging::logFatal("[TreeletExt::ExtTreelet] - T holds a span %s", SharedAlgorithm::vec2String(source_span).c_str());
 	int left_algn = algSent.getLeftAlignIndex(source_span[0]);
 	int right_algn = algSent.getRightAlignIndex(source_span[source_span.size() - 1]);
-//	int leftIndex = algSent.getIndex(source_span[0]);
-//	int rightIndex = algSent.getIndex(source_span[source_span.size() - 1]);
-
 	if (left_algn > right || right_algn < left) {
 		// T aligns totally outside of span e[left..right] then return the empty tree
 		return result;
@@ -49,9 +44,6 @@ Node* TreeletExt::ExtTreelet(Node* T, int left, int right) {
 		return T;
 	}
 	else {
-//		if (left == right) {
-//			return result;
-//		}
 		// T aligns partly of span e[left..right] then we need to recursive inside T
 		int cntChildren = T->getNumOfChildren();
 		for (int i = 0; i < cntChildren; i++) {
@@ -75,11 +67,11 @@ void TreeletExt::execute() {
 			 ParserTree treelet = ExtTreelet(pTree.getRoot(), i + 1, j + 1);
 
 			// output the treelet here
-			std::string span = algSent.TgtSent[i];
+			std::string span = algSent.SrcSent[i];
 			for (int k = i + 1; k <= j; k++) {
-				span += " " + algSent.TgtSent[k];
+				span += " " + algSent.SrcSent[k];
 			}
-			std::string treeletContent = treelet.getTree();
+			std::string treeletContent = pTree.getCompressTree();
 			treeletRes->write("Span: ");
 			treeletRes->writeLine(span);
 			treeletRes->write("Treelet: ");
