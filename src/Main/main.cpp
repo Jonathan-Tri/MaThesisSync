@@ -39,6 +39,8 @@ extern void testTreeletExt1(ParserTree ptree, AlignedSentence algsent);
 
 void testTreeletExtAlgorithm();
 
+extern void testCounterAlgorithm4();
+
 int main() {
 	initHistoryMsg();
 	testMain();
@@ -51,7 +53,9 @@ int main() {
 	//testParserFileReader3();
 //	testParsedTree1();
 
-	testTreeletExtAlgorithm();
+//	testTreeletExtAlgorithm();
+
+	testCounterAlgorithm4();
 
 //	testAlignParser1();
 //	testAlignParser2();
