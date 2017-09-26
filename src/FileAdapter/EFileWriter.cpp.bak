@@ -88,10 +88,6 @@ IFileWriter* EFileWriter::create(const char* fileName, const char *fileMode) {
 	return new EFileWriter(fileName, fileMode);
 }
 
-void EFileWriter::write(int num) {
-	oFile << num;
-}
-
 EFileWriter::~EFileWriter() {
 	close();
 	printf("Gone out from EFileWriter\n");

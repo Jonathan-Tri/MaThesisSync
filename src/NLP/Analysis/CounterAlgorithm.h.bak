@@ -13,8 +13,8 @@
 class CounterAlgorithm {
 public:
 	CounterAlgorithm(int len);
-	long long getValue(int i, int j);
-	void setValue(int i, int j, long long value);
+	int getValue(int i, int j);
+	void setValue(int i, int j, int value);
 	~CounterAlgorithm();
 
 	int getLen() const {
@@ -27,7 +27,7 @@ public:
 
 protected:
 	int Len;
-	std::unique_ptr<long long[]> Table;
+	std::unique_ptr<int[]> Table;
 };
 
 

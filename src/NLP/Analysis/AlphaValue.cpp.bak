@@ -23,7 +23,7 @@ void AlphaValue::AlphaCalculate() {
 				setValue(i, j, 1);
 			}
 			else {
-				long long alpha = 0;
+				int alpha = 0;
 				for (int k = 1; k < i; k++) {
 					alpha += getValue(k, j) * Beta->getValue(k, i - 1);
 				}

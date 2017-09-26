@@ -22,13 +22,13 @@ void BetaValue::BetaCalculate() {
 		}
 	}
 
-	for (int i = Len; i > 0; i--) {
-		for (int j = i; j <= Len; j++) {
+	for (int j = Len - 1; j > 0; j--) {
+		for (int i = j; i <= Len; i++) {
 			if (i == j) {
 				setValue(i, j, 1);
 			}
 			else {
-				long long Betaij = 0;
+				int Betaij = 0;
 				for (int k = i; k < j; k++) {
 					Betaij += getValue(i, k) * getValue(k + 1, j);
 				}

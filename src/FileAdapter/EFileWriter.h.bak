@@ -31,8 +31,6 @@ public:
 
 	virtual void write(std::string buf);
 
-	virtual void write(int num);
-
 	virtual bool isOpen();
 
 	virtual void close();

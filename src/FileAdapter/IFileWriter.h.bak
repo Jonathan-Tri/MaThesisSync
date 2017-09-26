@@ -25,8 +25,6 @@ public:
 
 	virtual void write(std::string buf) = 0;
 
-	virtual void write(int num) = 0;
-
 	virtual bool isOpen() = 0;
 
 	virtual void close() = 0;

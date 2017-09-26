@@ -38,9 +38,9 @@ extern std::string getAParsedTree();
 extern void testTreeletExt1(ParserTree ptree, AlignedSentence algsent);
 
 void testTreeletExtAlgorithm();
+
 extern void testCounterAlgorithm4();
-extern void testCounterAlgorithm16();
-extern void testCounterAlgorithm32();
+
 int main() {
 	initHistoryMsg();
 	testMain();
@@ -54,9 +54,9 @@ int main() {
 //	testParsedTree1();
 
 //	testTreeletExtAlgorithm();
+
 	testCounterAlgorithm4();
-	testCounterAlgorithm16();
-	testCounterAlgorithm32();
+
 //	testAlignParser1();
 //	testAlignParser2();
 	finalizeHistoryMsg();

@@ -15,18 +15,18 @@
 CounterAlgorithm::CounterAlgorithm(int len) {
 	Len = len;
 	try {
-		Table = std::make_unique<long long[]>((Len + 1) * (Len + 1));
+		Table = std::make_unique<int[]>((Len + 1) * (Len + 1));
 	}
 	catch (std::exception& ex) {
 		logging::logErr("Error: %s", ex.what());
 	}
 }
 
-long long CounterAlgorithm::getValue(int i, int j) {
+int CounterAlgorithm::getValue(int i, int j) {
 	return *(Table.get() + (i - 1) * Len + (j - 1));
 }
 
-void CounterAlgorithm::setValue(int i, int j, long long value) {
+void CounterAlgorithm::setValue(int i, int j, int value) {
 	*(Table.get() + (i - 1) * Len + (j - 1)) = value;
 }
 

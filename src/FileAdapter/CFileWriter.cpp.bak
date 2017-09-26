@@ -75,10 +75,6 @@ IFileWriter* CFileWriter::create(const char* fileName, const char* fileMode) {
 	return new CFileWriter(fileName, fileMode);
 }
 
-void CFileWriter::write(int num) {
-	fprintf(pFile, "%d", num);
-}
-
 CFileWriter::~CFileWriter() {
 	close();
 	printf("Gone out from CFileWriter\n");
