@@ -42,6 +42,7 @@ private:
 	ParserTree pTree;
 	AlignedSentence algSent;
 	IFileWriter *treeletRes;
+	std::shared_ptr<ParserTree[]> TreeletMap;
 };
 
 
