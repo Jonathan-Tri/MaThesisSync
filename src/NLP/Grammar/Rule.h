@@ -34,6 +34,8 @@ public:
 	 */
 	void print();
 
+	bool operator==(const Rule& rule);
+
 public:
 	std::string LHS;
 	std::vector<std::string> RHS;

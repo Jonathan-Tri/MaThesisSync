@@ -58,3 +58,14 @@ void Rule::buildSimpleRule(std::string content) {
 	RHS.reserve(tokens.size() - 1);
 	RHS.insert(RHS.end(), tokens.begin() + 1, tokens.end());
 }
+
+bool Rule::operator ==(const Rule& rule) {
+	bool result = false;
+
+	if (LHS == rule.LHS) {
+		// check whether the RHS is equal
+
+	}
+
+	return result;
+}
