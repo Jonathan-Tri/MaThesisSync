@@ -41,6 +41,8 @@ public:
 
 	Node* getRoot() {return mroot;}
 
+	bool isEmpty();
+
 	/*
 	 * destructor
 	 */

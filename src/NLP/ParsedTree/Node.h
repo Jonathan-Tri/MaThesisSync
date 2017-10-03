@@ -28,6 +28,8 @@ public:
 
 	std::string getContent();
 
+	bool isEmpty() {return Content == "" && getNumOfChildren() == 0;}
+
 	void setContent(std::string content);
 
 	void addChild(Node* child);

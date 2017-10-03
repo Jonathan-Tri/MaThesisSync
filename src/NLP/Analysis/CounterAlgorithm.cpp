@@ -15,7 +15,8 @@
 CounterAlgorithm::CounterAlgorithm(int len) {
 	Len = len;
 	try {
-		Table = std::make_unique<long long[]>((Len + 1) * (Len + 1));
+		//Table = std::make_unique<long long[]>((Len + 1) * (Len + 1));
+		Table = std::unique_ptr<long long[]>(new long long[(Len + 1) * (Len + 1)]);
 	}
 	catch (std::exception& ex) {
 		logging::logErr("Error: %s", ex.what());

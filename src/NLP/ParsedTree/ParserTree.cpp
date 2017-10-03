@@ -34,6 +34,7 @@ ParserTree::ParserTree(std::string compressTreeText) {
 	mCompressTreeText = compressTreeText;
 	SharedAlgorithm::removeTreeDecoration(mCompressTreeText);
 	logging::logFatal("[ParserTree::Constructor]: building the tree with compress text: %s", mCompressTreeText.c_str());
+	isNull = false;
 	mroot = buildTree(mCompressTreeText);
 }
 
@@ -102,4 +103,13 @@ Node* ParserTree::buildTree(std::string compressText) {
 
 ParserTree::~ParserTree() {
 	printf("Cleaned the parsedTree\n");
+}
+
+bool ParserTree::isEmpty() {
+	if (isNull) {
+		return true;
+	}
+	else {
+		return mroot->isEmpty();
+	}
 }

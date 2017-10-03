@@ -8,7 +8,7 @@
 #include "BetaValue.h"
 
 BetaValue::BetaValue(int len) : CounterAlgorithm(len) {
-	BetaCalculate();
+//	BetaCalculate();
 
 }
 

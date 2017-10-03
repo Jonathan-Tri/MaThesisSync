@@ -10,7 +10,7 @@
 #include "AlignedSentence.h"
 
 
-const char* alignFile = "align.txt";
+const char* alignFile = "resource/align.txt";
 
 
 void testAlignParser1() {

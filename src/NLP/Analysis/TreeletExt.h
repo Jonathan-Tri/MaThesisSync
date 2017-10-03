@@ -8,9 +8,14 @@
 #ifndef SRC_NLP_ANALYSIS_TREELETEXT_H_
 #define SRC_NLP_ANALYSIS_TREELETEXT_H_
 
-#include "../../FileAdapter/IFileWriter.h"
+#include <string>
+
 #include "../Alignment/AlignedSentence.h"
 #include "../ParsedTree/ParserTree.h"
+
+class CounterAlgorithm;
+class IFileWriter;
+class PCFG;
 
 class TreeletExt {
 public:
@@ -32,17 +37,22 @@ public:
 		pTree = tree;
 	}
 
+	void setAlgSent(const AlignedSentence& algSent);
+
 	Node* ExtTreelet(Node* root, int left, int right);
 
 	void execute();
 
 	void addMessage(std::string message);
 
+	PCFG* GlobalGrammar;
+
 private:
 	ParserTree pTree;
 	AlignedSentence algSent;
 	IFileWriter *treeletRes;
-	std::shared_ptr<ParserTree[]> TreeletMap;
+	CounterAlgorithm* BetaHelper;
+	CounterAlgorithm* AlphaHelper;
 };
 
 

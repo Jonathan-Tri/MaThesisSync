@@ -338,9 +338,11 @@ std::string SharedAlgorithm::StringBuilder(const char* format, ...) {
 //			break;
 //		case 'c':
 //			result += va_arg(argList, char);
+//		default:
+//			result += *format;
 //		}
 //	}
-	va_end(argList);
+//	va_end(argList);
 	while (index > 0) {
 		if (start < index) {
 			result += sformat.substr(start, index - start);

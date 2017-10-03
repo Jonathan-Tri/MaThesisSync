@@ -14,22 +14,23 @@
 
 #include "PCFGRule.h"
 
-typedef std::vector<std::string, std::vector<PCFGRule>> PCFGRulesType;
-typedef PCFGRulesType::iterator PCFGRulesIterator;
-typedef std::vector<PCFGRule>::iterator RuleListIterator;
+typedef std::vector<std::pair<std::string, std::vector<PCFGRule>>> PCFGRulesType;
+typedef PCFGRulesType::iterator ListRulesAddress;
+typedef std::vector<PCFGRule>::iterator RuleAddress;
 
 class PCFG {
 public:
 	void addRule(PCFGRule rule);
-	void updateRule(const PCFGRule& rule);
-	bool findTheRule(const PCFGRule& rule, PCFGRulesIterator addr);
+	void updateRule(const PCFGRule& rule, const RuleAddress& addr);
+	bool findTheRule(const PCFGRule& rule, ListRulesAddress listAddr, RuleAddress addr);
 	bool findTheNonTerminal(std::string nonterminal);
 	bool findTheTerminal(std::string terminal);
-	bool isTerminal(std::string token);
+	bool isNonTerminal(std::string token);
+	void updateNonTerminal(std::string token);
 
 private:
-	std::vector<std::string, std::vector<PCFGRule>> Rules;
-	std::map<std::string, int> NonTeminals;
+	PCFGRulesType Rules;
+	std::map<std::string, int> NonTerminals;
 	std::map<std::string, int> Terminals;
 };
 

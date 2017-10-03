@@ -21,6 +21,19 @@
       (AUX (VBD were) )
       (VP (VBN established) 
         (PP (IN between) 
+          (NP (DT the) (CD two) (NNS companies) )))))
+  (. .) )
+( END_OF_TEXT_UNIT )
+( END_OF_TEXT_UNIT )
+( END_OF_TEXT_UNIT )
+( (S 
+    (S 
+      (NP (NNS Lines) 
+        (PP (IN of) 
+          (NP (NNS communications) )))
+      (AUX (VBD were) )
+      (VP (VBN established) 
+        (PP (IN between) 
           (NP (DT the) (CD two) (NNS companies) ))))
     (CC and) 
     (S 

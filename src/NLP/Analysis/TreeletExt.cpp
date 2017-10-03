@@ -13,13 +13,31 @@
 
 #include "../../FileAdapter/FileType.h"
 #include "../../FileAdapter/FileWriterFactory.h"
+#include "../../FileAdapter/IFileWriter.h"
 #include "../../SharedAlgorithm/logging.h"
-#include "../../SharedAlgorithm/SharedAlgorithm.h"
+#include "../Grammar/PCFGRule.h"
+#include "AlphaValue.h"
+#include "BetaValue.h"
 
 TreeletExt::TreeletExt() {
 	treeletRes = FileWriterFactory::getInstance().create(NEW_FILE_TYPE, "treelet.txt");
+	BetaHelper = NULL;
+	AlphaHelper = NULL;
+	GlobalGrammar = NULL;
 }
 
+
+void TreeletExt::setAlgSent(const AlignedSentence& algSent) {
+	this->algSent = algSent;
+	if (BetaHelper != NULL) {
+		delete BetaHelper;
+	}
+	if (AlphaHelper != NULL) {
+		delete AlphaHelper;
+	}
+	BetaHelper = new BetaValue(algSent.TgtSent.size());
+	AlphaHelper = new AlphaValue(algSent.TgtSent.size());
+}
 /*
  * Input:
  * 		- a span e[i..j] of target sentence
@@ -53,18 +71,30 @@ Node* TreeletExt::ExtTreelet(Node* T, int left, int right) {
 //			return result;
 //		}
 		// T aligns partly of span e[left..right] then we need to recursive inside T
+//		result->setContent(T->getContent());
 		int cntChildren = T->getNumOfChildren();
-		for (int i = 0; i < cntChildren; i++) {
-			Node* partlyRs = ExtTreelet(T->getPChild(i), left, right);
-			result->addChild(partlyRs);
-		}
-		return result;
+//		if (cntChildren == 0) {
+//			return T;
+//		}
+//		else {
+			for (int i = 0; i < cntChildren; i++) {
+				Node* partlyRs = ExtTreelet(T->getPChild(i), left, right);
+				if (!partlyRs->isEmpty()) {
+					result->addChild(partlyRs);
+				}
+			}
+			return result;
+//		}
 	}
+}
+
+void attachToGlobal(PCFGRule rule) {
+	//TBD
 }
 
 void TreeletExt::execute() {
 //	int SrcCnt = algSent.getSrcSentLen();
-	int TgtCnt = algSent.getTgtSentLen() - 1;
+	int TgtCnt = algSent.getTgtSentLen();// - 1;
 
 	// test something
 	/*algSent.ownerTest();
@@ -72,7 +102,21 @@ void TreeletExt::execute() {
 	for (int i = 0; i < TgtCnt - 1; i++) {
 		for (int j = i; j < TgtCnt - 1; j++) {
 			// pTree will keep a treelet that correspond with e[i, j]
-			 ParserTree treelet = ExtTreelet(pTree.getRoot(), i + 1, j + 1);
+			ParserTree treelet = ExtTreelet(pTree.getRoot(), i + 1, j + 1);
+
+			// add the PCFG Rule built this treelet to Global Grammar
+//			if (!treelet.isEmpty()) {
+//				// get the highest rule from the treelet
+//				PCFGRule theRule(treelet.getRoot()->getContent());
+//				int childCnt = treelet.getRoot()->getNumOfChildren();
+//				if (childCnt > 0) {
+//					for (int i = 0; i < childCnt; i++) {
+//						theRule.addToken(2, treelet.getRoot()->getPChild(i)->getContent());
+//					}
+//				}
+//				attachToGlobal(theRule);
+//			}
+
 
 			// output the treelet here
 			std::string span = algSent.TgtSent[i];

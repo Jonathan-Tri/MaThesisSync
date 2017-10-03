@@ -64,7 +64,18 @@ bool Rule::operator ==(const Rule& rule) {
 
 	if (LHS == rule.LHS) {
 		// check whether the RHS is equal
-
+//		if (rule.RHS.size() == 1 && !SharedAlgorithm::isNonTerminal(rule.getRHSStr())) {
+//			return true;
+//		}
+		if (RHS.size() != rule.RHS.size()) {
+			return result;
+		}
+		for (int i = 0; i < RHS.size(); ++i) {
+			if (RHS[i] != rule.RHS[i]) {
+				return result;
+			}
+		}
+		result = true;
 	}
 
 	return result;

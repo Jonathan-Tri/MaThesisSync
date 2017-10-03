@@ -61,6 +61,7 @@ std::string Node::doGetTree(Node* node) {
 		result = node->getContent();
 	}
 	else {
+		result += node->getContent();
 		for (int i = 0; i < cnt; i++) {
 			Node* child = node->getPChild(i);
 			result += " " + doGetTree(child);

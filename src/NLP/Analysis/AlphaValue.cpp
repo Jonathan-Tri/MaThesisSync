@@ -9,7 +9,7 @@
 
 AlphaValue::AlphaValue(int len) : CounterAlgorithm(len) {
 	Beta = new BetaValue(len);
-	AlphaCalculate();
+//	AlphaCalculate();
 }
 
 AlphaValue::~AlphaValue() {
@@ -17,8 +17,13 @@ AlphaValue::~AlphaValue() {
 }
 
 void AlphaValue::AlphaCalculate() {
+	for (int i = 1; i <= Len; i++) {
+		for (int j = 1; j <= Len; j++) {
+			setValue(i, j, 0);
+		}
+	}
 	for (int j = Len; j > 0; j--) {
-		for (int i = 1; i <= Len; i++) {
+w		for (int i = 1; i <= Len; i++) {
 			if (i == 1 && j == Len) {
 				setValue(i, j, 1);
 			}

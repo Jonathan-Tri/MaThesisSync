@@ -188,6 +188,11 @@ public:
 	 * remove the tag name from given line
 	 */
 	static void removeTagName(std::string& line, std::string tagName);
+
+	/*
+	 * Grammar helper
+	 */
+	static bool isNonTerminal(std::string token);
 };
 
 
